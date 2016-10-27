@@ -8,7 +8,25 @@
 <!-- Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.    -->
 
 <messages>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/peraxor/MEGAsync/27-7/VHDL/belief_propagation/comparator_min_only.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/peraxor/MEGAsync/27-7/VHDL/belief_propagation/minimum_13comp.vhd&quot; into library work</arg>
+</msg>
+
 <msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/peraxor/MEGAsync/27-7/VHDL/belief_propagation/minimum_7comp.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/peraxor/MEGAsync/27-7/VHDL/belief_propagation/register3bit.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/peraxor/MEGAsync/27-7/VHDL/implementation/comparator.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/peraxor/MEGAsync/27-7/VHDL/implementation/my_types_pkg.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/peraxor/MEGAsync/27-7/VHDL/implementation/registerN.vhd&quot; into library work</arg>
 </msg>
 
 </messages>

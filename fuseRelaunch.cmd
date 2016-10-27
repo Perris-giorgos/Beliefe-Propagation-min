@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "/home/peraxor/MEGAsync/27-7/VHDL/belief_propagation/minimum_13comp_isim_beh.exe" -prj "/home/peraxor/MEGAsync/27-7/VHDL/belief_propagation/minimum_13comp_beh.prj" "work.minimum_13comp" 

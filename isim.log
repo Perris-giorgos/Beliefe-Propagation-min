@@ -1,0 +1,65 @@
+ISim log file
+Running: /home/peraxor/MEGAsync/27-7/VHDL/belief_propagation/minimum_13comp_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb /home/peraxor/MEGAsync/27-7/VHDL/belief_propagation/minimum_13comp_isim_beh.wdb 
+ISim P.40xd (signature 0xfbc00daa)
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /minimum_13comp/c1/ : Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+at 0 ps, Instance /minimum_13comp/c2/ : Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+at 0 ps, Instance /minimum_13comp/c3/ : Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+at 0 ps, Instance /minimum_13comp/c4/ : Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+at 0 ps, Instance /minimum_13comp/c5/ : Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+at 0 ps, Instance /minimum_13comp/c6/ : Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+at 0 ps, Instance /minimum_13comp/c7/ : Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+at 0 ps, Instance /minimum_13comp/c8/ : Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+at 0 ps, Instance /minimum_13comp/c9/ : Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+at 0 ps, Instance /minimum_13comp/c10/ : Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+at 0 ps, Instance /minimum_13comp/c11/ : Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+at 0 ps, Instance /minimum_13comp/c12/ : Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+at 0 ps, Instance /minimum_13comp/c13/ : Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+Finished circuit initialization process.
+at 0 ps, Instance /minimum_13comp/c1/ : Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+at 0 ps, Instance /minimum_13comp/c3/ : Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+at 0 ps, Instance /minimum_13comp/c6/ : Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+at 0 ps, Instance /minimum_13comp/c2/ : Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+at 0 ps, Instance /minimum_13comp/c4/ : Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+at 0 ps, Instance /minimum_13comp/c8/ : Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+at 0 ps, Instance /minimum_13comp/c5/ : Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+at 0 ps, Instance /minimum_13comp/c7/ : Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+at 0 ps, Instance /minimum_13comp/c9/ : Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+at 0 ps, Instance /minimum_13comp/c11/ : Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+at 0 ps, Instance /minimum_13comp/c10/ : Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+at 0 ps, Instance /minimum_13comp/c12/ : Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+at 0 ps, Instance /minimum_13comp/c13/ : Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+at 0 ps, Instance /minimum_13comp/c5/ : Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+at 0 ps, Instance /minimum_13comp/c9/ : Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+at 0 ps, Instance /minimum_13comp/c7/ : Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+at 0 ps, Instance /minimum_13comp/c10/ : Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+at 0 ps, Instance /minimum_13comp/c11/ : Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+at 0 ps, Instance /minimum_13comp/c12/ : Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+at 0 ps, Instance /minimum_13comp/c13/ : Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+# isim force add /minimum_13comp/clk 1 -radix bin -value 0 -radix bin -time 50 ps -repeat 100 ps
+# isim force add /minimum_13comp/en_reg 1 -radix bin
+# run all
+at 1 us(1), Instance /minimum_13comp/c1/ : Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+at 1 us(1), Instance /minimum_13comp/c3/ : Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+at 1 us(1), Instance /minimum_13comp/c6/ : Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+at 1 us(1), Instance /minimum_13comp/c4/ : Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+at 1 us(1), Instance /minimum_13comp/c8/ : Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+at 1 us(2), Instance /minimum_13comp/c5/ : Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+at 1 us(2), Instance /minimum_13comp/c7/ : Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+at 1 us(4), Instance /minimum_13comp/c11/ : Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+at 1 us(5), Instance /minimum_13comp/c13/ : Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+at 1 us(6), Instance /minimum_13comp/c13/ : Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+Stopped at time : 63143300 ps : File "/home/peraxor/MEGAsync/27-7/VHDL/belief_propagation/register3bit.vhd" Line 26
+# run 1.00us
+at 63143300 ps(3), Instance /minimum_13comp/c5/ : Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# exit 0

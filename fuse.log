@@ -1,0 +1,30 @@
+Running: /opt/Xilinx/14.3/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib secureip -o /home/peraxor/MEGAsync/27-7/VHDL/belief_propagation/minimum_13comp_isim_beh.exe -prj /home/peraxor/MEGAsync/27-7/VHDL/belief_propagation/minimum_13comp_beh.prj work.minimum_13comp 
+ISim P.40xd (signature 0xfbc00daa)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "/home/peraxor/MEGAsync/27-7/VHDL/belief_propagation/../implementation/my_types_pkg.vhd" into library work
+Parsing VHDL file "/home/peraxor/MEGAsync/27-7/VHDL/belief_propagation/../implementation/registerN.vhd" into library work
+Parsing VHDL file "/home/peraxor/MEGAsync/27-7/VHDL/belief_propagation/../implementation/comparator.vhd" into library work
+Parsing VHDL file "/home/peraxor/MEGAsync/27-7/VHDL/belief_propagation/register3bit.vhd" into library work
+Parsing VHDL file "/home/peraxor/MEGAsync/27-7/VHDL/belief_propagation/comparator_min_only.vhd" into library work
+Parsing VHDL file "/home/peraxor/MEGAsync/27-7/VHDL/belief_propagation/minimum_13comp.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 96872 KB
+Fuse CPU Usage: 1210 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling package my_types_pkg
+Compiling architecture comp of entity Comparator [comparator_default]
+Compiling architecture comp of entity comparator_min_only [comparator_min_only_default]
+Compiling architecture behavioral of entity registerN [registern_default]
+Compiling architecture behavioral of entity register3bit [register3bit_default]
+Compiling architecture behavioral of entity minimum_13comp
+Time Resolution for simulation is 1ps.
+Compiled 13 VHDL Units
+Built simulation executable /home/peraxor/MEGAsync/27-7/VHDL/belief_propagation/minimum_13comp_isim_beh.exe
+Fuse Memory Usage: 670764 KB
+Fuse CPU Usage: 1330 ms
+GCC CPU Usage: 450 ms

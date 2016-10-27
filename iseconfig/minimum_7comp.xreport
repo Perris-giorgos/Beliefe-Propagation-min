@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2016-10-27T11:13:29</DateModified>
+  <DateModified>2016-10-27T15:08:23</DateModified>
   <ModuleName>minimum_7comp</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
   <SavedFilePath>/home/peraxor/MEGAsync/27-7/VHDL/belief_propagation/iseconfig/minimum_7comp.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>/home/peraxor/MEGAsync/27-7/VHDL/belief_propagation</ImplementationReportsDirectory>
+  <ImplementationReportsDirectory>/home/peraxor/MEGAsync/27-7/VHDL/belief_propagation/</ImplementationReportsDirectory>
   <DateInitialized>2016-10-27T11:13:29</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

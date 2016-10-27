@@ -1,0 +1,6 @@
+vhdl isim_temp "../implementation/my_types_pkg.vhd"
+vhdl isim_temp "../implementation/registerN.vhd"
+vhdl isim_temp "../implementation/comparator.vhd"
+vhdl isim_temp "register3bit.vhd"
+vhdl isim_temp "comparator_min_only.vhd"
+vhdl isim_temp "minimum_13comp.vhd"

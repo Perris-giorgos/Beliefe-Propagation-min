@@ -1,0 +1,6 @@
+vhdl work "../implementation/my_types_pkg.vhd"
+vhdl work "../implementation/registerN.vhd"
+vhdl work "../implementation/comparator.vhd"
+vhdl work "register3bit.vhd"
+vhdl work "comparator_min_only.vhd"
+vhdl work "minimum_7comp.vhd"
