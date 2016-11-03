@@ -1,0 +1,2 @@
+vhdl work "../implementation/my_types_pkg.vhd"
+vhdl work "shiftregister_PISO.vhd"

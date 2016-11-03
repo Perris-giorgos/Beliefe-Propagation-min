@@ -1,0 +1,97 @@
+Release 14.3 - xst P.40xd (lin64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to /home/peraxor/MEGAsync/27-7/VHDL/belief_propagation/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.05 secs
+ 
+--> 
+Parameter xsthdpdir set to /home/peraxor/MEGAsync/27-7/VHDL/belief_propagation/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.05 secs
+ 
+--> 
+Reading design: decoder.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "/home/peraxor/MEGAsync/27-7/VHDL/implementation/my_types_pkg.vhd" into library work
+Parsing package <my_types_pkg>.
+Parsing package body <my_types_pkg>.
+Parsing VHDL file "/home/peraxor/MEGAsync/27-7/VHDL/implementation/registerN.vhd" into library work
+Parsing entity <registerN>.
+Parsing architecture <Behavioral> of entity <registern>.
+Parsing VHDL file "/home/peraxor/MEGAsync/27-7/VHDL/implementation/comparator.vhd" into library work
+Parsing entity <Comparator>.
+Parsing architecture <comp> of entity <comparator>.
+Parsing VHDL file "/home/peraxor/MEGAsync/27-7/VHDL/belief_propagation/register3bit.vhd" into library work
+Parsing entity <register3bit>.
+Parsing architecture <Behavioral> of entity <register3bit>.
+Parsing VHDL file "/home/peraxor/MEGAsync/27-7/VHDL/belief_propagation/comparator_min_only.vhd" into library work
+Parsing entity <comparator_min_only>.
+Parsing architecture <comp> of entity <comparator_min_only>.
+Parsing VHDL file "/home/peraxor/MEGAsync/27-7/VHDL/belief_propagation/shiftregister_SIPO.vhd" into library work
+Parsing entity <shift_registers_sipo>.
+Parsing architecture <archi> of entity <shift_registers_sipo>.
+Parsing VHDL file "/home/peraxor/MEGAsync/27-7/VHDL/belief_propagation/shiftregister_PISO.vhd" into library work
+Parsing entity <shift_register_piso>.
+Parsing architecture <archi> of entity <shift_register_piso>.
+Parsing VHDL file "/home/peraxor/MEGAsync/27-7/VHDL/belief_propagation/row_processor.vhd" into library work
+Parsing entity <row_processor>.
+Parsing architecture <row_proc> of entity <row_processor>.
+Parsing VHDL file "/home/peraxor/MEGAsync/27-7/VHDL/belief_propagation/row_counter.vhd" into library work
+Parsing entity <row_counter>.
+Parsing architecture <archi> of entity <row_counter>.
+Parsing VHDL file "/home/peraxor/MEGAsync/27-7/VHDL/belief_propagation/minimum_7comp.vhd" into library work
+Parsing entity <minimum_7comp>.
+Parsing architecture <Behavioral> of entity <minimum_7comp>.
+Parsing VHDL file "/home/peraxor/MEGAsync/27-7/VHDL/belief_propagation/Check2BitRAM.vhd" into library work
+Parsing entity <Check2BitRAM>.
+Parsing architecture <syn> of entity <check2bitram>.
+Parsing VHDL file "/home/peraxor/MEGAsync/27-7/VHDL/belief_propagation/Add_lambda.vhd" into library work
+Parsing entity <Add_lambda>.
+Parsing architecture <Behavioral> of entity <add_lambda>.
+Parsing VHDL file "/home/peraxor/MEGAsync/27-7/VHDL/belief_propagation/decoder.vhd" into library work
+Parsing entity <decoder>.
+Parsing architecture <Behavioral> of entity <decoder>.
+
+
+Total REAL time to Xst completion: 4.00 secs
+Total CPU time to Xst completion: 4.00 secs
+ 
+--> 
+
+
+Total memory usage is 323260 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

@@ -1,0 +1,3 @@
+vhdl work "../implementation/my_types_pkg.vhd"
+vhdl work "../implementation/registerN.vhd"
+vhdl work "Add_lambda.vhd"

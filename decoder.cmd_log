@@ -1,0 +1,11 @@
+xst -intstyle ise -ifn "/home/peraxor/MEGAsync/27-7/VHDL/belief_propagation/decoder.xst" -ofn "/home/peraxor/MEGAsync/27-7/VHDL/belief_propagation/decoder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6vlx240t-ff1156-1 decoder.ngc decoder.ngd  
+xst -intstyle ise -ifn "/home/peraxor/MEGAsync/27-7/VHDL/belief_propagation/decoder.xst" -ofn "/home/peraxor/MEGAsync/27-7/VHDL/belief_propagation/decoder.syr" 
+xst -intstyle ise -ifn "/home/peraxor/MEGAsync/27-7/VHDL/belief_propagation/decoder.xst" -ofn "/home/peraxor/MEGAsync/27-7/VHDL/belief_propagation/decoder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6vlx240t-ff1156-1 decoder.ngc decoder.ngd  
+map -intstyle ise -p xc6vlx240t-ff1156-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o decoder_map.ncd decoder.ngd decoder.pcf 
+xst -intstyle ise -ifn "/home/peraxor/MEGAsync/27-7/VHDL/belief_propagation/decoder.xst" -ofn "/home/peraxor/MEGAsync/27-7/VHDL/belief_propagation/decoder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6vlx240t-ff1156-1 decoder.ngc decoder.ngd  
+map -intstyle ise -p xc6vlx240t-ff1156-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o decoder_map.ncd decoder.ngd decoder.pcf 
+par -w -intstyle ise -ol high -mt off decoder_map.ncd decoder.ncd decoder.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml decoder.twx decoder.ncd -o decoder.twr decoder.pcf 

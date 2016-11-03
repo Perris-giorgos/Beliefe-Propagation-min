@@ -1,6 +1,9 @@
-set -tmpdir "/home/peraxor/MEGAsync/27-7/VHDL/belief_propagation/xst/projnav.tmp"
-set -xsthdpdir "/home/peraxor/MEGAsync/27-7/VHDL/belief_propagation/xst"
-run -compileonly yes
+set -tmpdir "xst/projnav.tmp"
+set -xsthdpdir "xst"
+run
+-ifn minimum_7comp.prj
+-ofn minimum_7comp
+-ofmt NGC
 -p xc6vlx240t-1-ff1156
 -top minimum_7comp
 -opt_mode Speed
@@ -47,4 +50,3 @@ run -compileonly yes
 -iob Auto
 -equivalent_register_removal YES
 -slice_utilization_ratio_maxmargin 5
--ifn minimum_7comp.prj
