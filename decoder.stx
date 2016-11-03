@@ -5,14 +5,14 @@ Parameter TMPDIR set to /home/peraxor/MEGAsync/27-7/VHDL/belief_propagation/xst/
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.05 secs
+Total CPU time to Xst completion: 0.06 secs
  
 --> 
 Parameter xsthdpdir set to /home/peraxor/MEGAsync/27-7/VHDL/belief_propagation/xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.05 secs
+Total CPU time to Xst completion: 0.06 secs
  
 --> 
 Reading design: decoder.prj
@@ -42,7 +42,7 @@ TABLE OF CONTENTS
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
-Parsing VHDL file "/home/peraxor/MEGAsync/27-7/VHDL/implementation/my_types_pkg.vhd" into library work
+Parsing VHDL file "/home/peraxor/MEGAsync/27-7/VHDL/belief_propagation/my_types_pkg.vhd" into library work
 Parsing package <my_types_pkg>.
 Parsing package body <my_types_pkg>.
 Parsing VHDL file "/home/peraxor/MEGAsync/27-7/VHDL/implementation/registerN.vhd" into library work
@@ -54,9 +54,15 @@ Parsing architecture <comp> of entity <comparator>.
 Parsing VHDL file "/home/peraxor/MEGAsync/27-7/VHDL/belief_propagation/register3bit.vhd" into library work
 Parsing entity <register3bit>.
 Parsing architecture <Behavioral> of entity <register3bit>.
+Parsing VHDL file "/home/peraxor/MEGAsync/27-7/VHDL/belief_propagation/lambda_final.vhd" into library work
+Parsing entity <lambda_final1>.
+Parsing architecture <Behavioral> of entity <lambda_final1>.
 Parsing VHDL file "/home/peraxor/MEGAsync/27-7/VHDL/belief_propagation/comparator_min_only.vhd" into library work
 Parsing entity <comparator_min_only>.
 Parsing architecture <comp> of entity <comparator_min_only>.
+Parsing VHDL file "/home/peraxor/MEGAsync/27-7/VHDL/belief_propagation/adderNbit.vhd" into library work
+Parsing entity <adderNbit>.
+Parsing architecture <Behavioral> of entity <addernbit>.
 Parsing VHDL file "/home/peraxor/MEGAsync/27-7/VHDL/belief_propagation/shiftregister_SIPO.vhd" into library work
 Parsing entity <shift_registers_sipo>.
 Parsing architecture <archi> of entity <shift_registers_sipo>.
@@ -72,26 +78,40 @@ Parsing architecture <archi> of entity <row_counter>.
 Parsing VHDL file "/home/peraxor/MEGAsync/27-7/VHDL/belief_propagation/minimum_7comp.vhd" into library work
 Parsing entity <minimum_7comp>.
 Parsing architecture <Behavioral> of entity <minimum_7comp>.
+Parsing VHDL file "/home/peraxor/MEGAsync/27-7/VHDL/belief_propagation/lambdas_final.vhd" into library work
+Parsing entity <lambdas_final>.
+Parsing architecture <Behavioral> of entity <lambdas_final>.
 Parsing VHDL file "/home/peraxor/MEGAsync/27-7/VHDL/belief_propagation/Check2BitRAM.vhd" into library work
 Parsing entity <Check2BitRAM>.
 Parsing architecture <syn> of entity <check2bitram>.
+Parsing VHDL file "/home/peraxor/MEGAsync/27-7/VHDL/belief_propagation/c2b_RAm_write.vhd" into library work
+Parsing entity <c2b_RAm_prep>.
+Parsing architecture <Behavioral> of entity <c2b_ram_prep>.
+Parsing VHDL file "/home/peraxor/MEGAsync/27-7/VHDL/belief_propagation/BitNodeUpdate.vhd" into library work
+Parsing entity <BitNodeUpdate>.
+Parsing architecture <Behavioral> of entity <bitnodeupdate>.
 Parsing VHDL file "/home/peraxor/MEGAsync/27-7/VHDL/belief_propagation/Add_lambda.vhd" into library work
 Parsing entity <Add_lambda>.
 Parsing architecture <Behavioral> of entity <add_lambda>.
 Parsing VHDL file "/home/peraxor/MEGAsync/27-7/VHDL/belief_propagation/decoder.vhd" into library work
 Parsing entity <decoder>.
 Parsing architecture <Behavioral> of entity <decoder>.
-
-
-Total REAL time to Xst completion: 4.00 secs
-Total CPU time to Xst completion: 4.00 secs
- 
+ERROR:HDLCompiler:69 - "/home/peraxor/MEGAsync/27-7/VHDL/belief_propagation/decoder.vhd" Line 144: <dsaj> is not declared.
+ERROR:HDLCompiler:69 - "/home/peraxor/MEGAsync/27-7/VHDL/belief_propagation/decoder.vhd" Line 145: <dsaj> is not declared.
+ERROR:HDLCompiler:69 - "/home/peraxor/MEGAsync/27-7/VHDL/belief_propagation/decoder.vhd" Line 146: <dsaj> is not declared.
+ERROR:HDLCompiler:69 - "/home/peraxor/MEGAsync/27-7/VHDL/belief_propagation/decoder.vhd" Line 147: <dsaj> is not declared.
+ERROR:HDLCompiler:69 - "/home/peraxor/MEGAsync/27-7/VHDL/belief_propagation/decoder.vhd" Line 148: <dsaj> is not declared.
+ERROR:HDLCompiler:69 - "/home/peraxor/MEGAsync/27-7/VHDL/belief_propagation/decoder.vhd" Line 149: <dsaj> is not declared.
+ERROR:HDLCompiler:69 - "/home/peraxor/MEGAsync/27-7/VHDL/belief_propagation/decoder.vhd" Line 150: <dsaj> is not declared.
+ERROR:HDLCompiler:69 - "/home/peraxor/MEGAsync/27-7/VHDL/belief_propagation/decoder.vhd" Line 151: <dsaj> is not declared.
+ERROR:HDLCompiler:854 - "/home/peraxor/MEGAsync/27-7/VHDL/belief_propagation/decoder.vhd" Line 23: Unit <behavioral> ignored due to previous errors.
+VHDL file /home/peraxor/MEGAsync/27-7/VHDL/belief_propagation/decoder.vhd ignored due to errors
 --> 
 
 
-Total memory usage is 323260 kilobytes
+Total memory usage is 323300 kilobytes
 
-Number of errors   :    0 (   0 filtered)
+Number of errors   :    9 (   0 filtered)
 Number of warnings :    0 (   0 filtered)
 Number of infos    :    0 (   0 filtered)
 

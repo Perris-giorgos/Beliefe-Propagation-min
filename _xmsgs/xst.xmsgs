@@ -5,5 +5,32 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
+<msg type="error" file="HDLCompiler" num="69" delta="old" >"/home/peraxor/MEGAsync/27-7/VHDL/belief_propagation/decoder.vhd" Line 144: &lt;<arg fmt="%s" index="1">dsaj</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="old" >"/home/peraxor/MEGAsync/27-7/VHDL/belief_propagation/decoder.vhd" Line 145: &lt;<arg fmt="%s" index="1">dsaj</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="old" >"/home/peraxor/MEGAsync/27-7/VHDL/belief_propagation/decoder.vhd" Line 146: &lt;<arg fmt="%s" index="1">dsaj</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="old" >"/home/peraxor/MEGAsync/27-7/VHDL/belief_propagation/decoder.vhd" Line 147: &lt;<arg fmt="%s" index="1">dsaj</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="old" >"/home/peraxor/MEGAsync/27-7/VHDL/belief_propagation/decoder.vhd" Line 148: &lt;<arg fmt="%s" index="1">dsaj</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="old" >"/home/peraxor/MEGAsync/27-7/VHDL/belief_propagation/decoder.vhd" Line 149: &lt;<arg fmt="%s" index="1">dsaj</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="old" >"/home/peraxor/MEGAsync/27-7/VHDL/belief_propagation/decoder.vhd" Line 150: &lt;<arg fmt="%s" index="1">dsaj</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="old" >"/home/peraxor/MEGAsync/27-7/VHDL/belief_propagation/decoder.vhd" Line 151: &lt;<arg fmt="%s" index="1">dsaj</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="854" delta="old" >"/home/peraxor/MEGAsync/27-7/VHDL/belief_propagation/decoder.vhd" Line 23: Unit &lt;<arg fmt="%s" index="1">behavioral</arg>&gt; ignored due to previous errors.
+</msg>
+
 </messages>
 
