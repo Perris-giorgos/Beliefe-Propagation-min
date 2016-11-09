@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/newtry/two_minimum_with_isim_beh.exe" -prj "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/newtry/two_minimum_with_beh.prj" "work.two_minimum_with" 

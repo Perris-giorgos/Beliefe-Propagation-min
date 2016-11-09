@@ -1,0 +1,432 @@
+Release 14.3 - xst P.40xd (lin64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.06 secs
+ 
+--> 
+Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.06 secs
+ 
+--> 
+Reading design: BitNodeUpdate.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "BitNodeUpdate.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "BitNodeUpdate"
+Output Format                      : NGC
+Target Device                      : xc6vlx240t-1-ff1156
+
+---- Source Options
+Top Module Name                    : BitNodeUpdate
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 32
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+---- Other Options
+Cores Search Directories           : {"../../belief_propagation"  }
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "/home/peraxor/MEGAsync/27-7/VHDL/belief_propagation/my_types_pkg.vhd" into library work
+Parsing package <my_types_pkg>.
+Parsing package body <my_types_pkg>.
+Parsing VHDL file "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/newtry/registerN.vhd" into library work
+Parsing entity <registerN>.
+Parsing architecture <Behavioral> of entity <registern>.
+Parsing VHDL file "/home/peraxor/MEGAsync/27-7/VHDL/belief_propagation/adderNbit.vhd" into library work
+Parsing entity <adderNbit>.
+Parsing architecture <Behavioral> of entity <addernbit>.
+Parsing VHDL file "/home/peraxor/MEGAsync/27-7/VHDL/belief_propagation/BitNodeUpdate.vhd" into library work
+Parsing entity <BitNodeUpdate>.
+Parsing architecture <Behavioral> of entity <bitnodeupdate>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <BitNodeUpdate> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <adderNbit> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <registerN> (architecture <Behavioral>) from library <work>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <BitNodeUpdate>.
+    Related source file is "/home/peraxor/MEGAsync/27-7/VHDL/belief_propagation/BitNodeUpdate.vhd".
+    Found 512x69-bit Read Only RAM for signal <_n1269>
+    Found 6-bit 648-to-1 multiplexer for signal <indexed> created at line 42.
+    Found 1-bit 7-to-1 multiplexer for signal <col[2]_row[8]_wide_mux_8_OUT<8>> created at line 42.
+    Found 1-bit 8-to-1 multiplexer for signal <col[2]_row[8]_wide_mux_8_OUT<7>> created at line 42.
+    Found 1-bit 8-to-1 multiplexer for signal <col[2]_row[8]_wide_mux_8_OUT<6>> created at line 42.
+    Found 1-bit 8-to-1 multiplexer for signal <col[2]_row[8]_wide_mux_8_OUT<5>> created at line 42.
+    Found 1-bit 8-to-1 multiplexer for signal <col[2]_row[8]_wide_mux_8_OUT<4>> created at line 42.
+    Found 1-bit 8-to-1 multiplexer for signal <col[2]_row[8]_wide_mux_8_OUT<3>> created at line 42.
+    Found 1-bit 8-to-1 multiplexer for signal <col[2]_row[8]_wide_mux_8_OUT<2>> created at line 42.
+    Found 1-bit 8-to-1 multiplexer for signal <col[2]_row[8]_wide_mux_8_OUT<1>> created at line 42.
+    Found 1-bit 8-to-1 multiplexer for signal <col[2]_row[8]_wide_mux_8_OUT<0>> created at line 42.
+    Summary:
+	inferred   1 RAM(s).
+	inferred  14 Multiplexer(s).
+Unit <BitNodeUpdate> synthesized.
+
+Synthesizing Unit <adderNbit>.
+    Related source file is "/home/peraxor/MEGAsync/27-7/VHDL/belief_propagation/adderNbit.vhd".
+    Found 6-bit adder for signal <neo> created at line 20.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+Unit <adderNbit> synthesized.
+
+Synthesizing Unit <registerN>.
+    Related source file is "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/newtry/registerN.vhd".
+    Found 6-bit register for signal <q>.
+    Summary:
+	inferred   6 D-type flip-flop(s).
+Unit <registerN> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 1
+ 512x69-bit single-port Read Only RAM                  : 1
+# Adders/Subtractors                                   : 1
+ 6-bit adder                                           : 1
+# Registers                                            : 1
+ 6-bit register                                        : 1
+# Multiplexers                                         : 14
+ 1-bit 2-to-1 multiplexer                              : 4
+ 1-bit 7-to-1 multiplexer                              : 1
+ 1-bit 8-to-1 multiplexer                              : 8
+ 6-bit 648-to-1 multiplexer                            : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+Synthesizing (advanced) Unit <BitNodeUpdate>.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram__n1269> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 512-word x 69-bit                   |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <row>           |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+Unit <BitNodeUpdate> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 1
+ 512x69-bit single-port distributed Read Only RAM      : 1
+# Adders/Subtractors                                   : 1
+ 6-bit adder                                           : 1
+# Registers                                            : 6
+ Flip-Flops                                            : 6
+# Multiplexers                                         : 14
+ 1-bit 2-to-1 multiplexer                              : 4
+ 1-bit 7-to-1 multiplexer                              : 1
+ 1-bit 8-to-1 multiplexer                              : 8
+ 6-bit 648-to-1 multiplexer                            : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <BitNodeUpdate> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block BitNodeUpdate, actual ratio is 1.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 6
+ Flip-Flops                                            : 6
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : BitNodeUpdate.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 1961
+#      GND                         : 1
+#      INV                         : 2
+#      LUT1                        : 1
+#      LUT2                        : 10
+#      LUT3                        : 24
+#      LUT4                        : 23
+#      LUT5                        : 92
+#      LUT6                        : 1694
+#      MUXCY                       : 5
+#      MUXF7                       : 97
+#      MUXF8                       : 6
+#      XORCY                       : 6
+# FlipFlops/Latches                : 6
+#      FDRE                        : 6
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 3914
+#      IBUF                        : 3908
+#      OBUF                        : 6
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6vlx240tff1156-1 
+
+
+Slice Logic Utilization: 
+ Number of Slice LUTs:                 1846  out of  150720     1%  
+    Number used as Logic:              1846  out of  150720     1%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:   1846
+   Number with an unused Flip Flop:    1846  out of   1846   100%  
+   Number with an unused LUT:             0  out of   1846     0%  
+   Number of fully used LUT-FF pairs:     0  out of   1846     0%  
+   Number of unique control sets:         1
+
+IO Utilization: 
+ Number of IOs:                        3915
+ Number of bonded IOBs:                3915  out of    600   652% (*) 
+    IOB Flip Flops/Latches:               6
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                1  out of     32     3%  
+
+WARNING:Xst:1336 -  (*) More than 100% of Device resources are used
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 6     |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -1
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: 8.560ns
+   Maximum output required time after clock: 0.777ns
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 3495729 / 18
+-------------------------------------------------------------------------
+Offset:              8.560ns (Levels of Logic = 19)
+  Source:            row<1> (PAD)
+  Destination:       l/q_5 (FF)
+  Destination Clock: clk rising
+
+  Data Path: row<1> to l/q_5
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O           323   0.003   0.991  row_1_IBUF (row_1_IBUF)
+     LUT6:I1->O            6   0.068   0.450  Mram__n12691581 (Mram__n1269158)
+     LUT6:I5->O            1   0.068   0.581  Mram__n1269162112 (Mram__n1269162111)
+     LUT6:I3->O            1   0.068   0.775  Mram__n1269162114 (Mram__n1269162113)
+     LUT6:I1->O            1   0.068   0.417  Mram__n12691621119 (_n1269<37>)
+     LUT6:I5->O            1   0.068   0.000  Mmux_col[2]_row[8]_wide_mux_8_OUT<1>_3 (Mmux_col[2]_row[8]_wide_mux_8_OUT<1>_3)
+     MUXF7:I1->O         972   0.248   1.054  Mmux_col[2]_row[8]_wide_mux_8_OUT<1>_2_f7 (col[2]_row[8]_wide_mux_8_OUT<1>)
+     LUT6:I0->O            1   0.068   0.638  Mmux_indexed_2114 (Mmux_indexed_2114)
+     LUT6:I2->O            1   0.068   0.638  Mmux_indexed_164 (Mmux_indexed_164)
+     LUT6:I2->O            1   0.068   0.638  Mmux_indexed_111 (Mmux_indexed_111)
+     LUT6:I2->O            1   0.068   0.000  Mmux_indexed_6 (Mmux_indexed_6)
+     MUXF7:I1->O           1   0.248   0.581  Mmux_indexed_5_f7 (Mmux_indexed_5_f7)
+     LUT4:I1->O            1   0.068   0.000  B/Madd_neo_lut<0> (B/Madd_neo_lut<0>)
+     MUXCY:S->O            1   0.290   0.000  B/Madd_neo_cy<0> (B/Madd_neo_cy<0>)
+     MUXCY:CI->O           1   0.019   0.000  B/Madd_neo_cy<1> (B/Madd_neo_cy<1>)
+     MUXCY:CI->O           1   0.019   0.000  B/Madd_neo_cy<2> (B/Madd_neo_cy<2>)
+     MUXCY:CI->O           1   0.019   0.000  B/Madd_neo_cy<3> (B/Madd_neo_cy<3>)
+     MUXCY:CI->O           0   0.019   0.000  B/Madd_neo_cy<4> (B/Madd_neo_cy<4>)
+     XORCY:CI->O           1   0.239   0.000  B/Madd_neo_xor<5> (current_lambda<5>)
+     FDRE:D                    0.011          l/q_5
+    ----------------------------------------
+    Total                      8.560ns (1.797ns logic, 6.763ns route)
+                                       (21.0% logic, 79.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 6 / 6
+-------------------------------------------------------------------------
+Offset:              0.777ns (Levels of Logic = 1)
+  Source:            l/q_5 (FF)
+  Destination:       lambda_out<5> (PAD)
+  Source Clock:      clk rising
+
+  Data Path: l/q_5 to lambda_out<5>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRE:C->Q             1   0.375   0.399  l/q_5 (l/q_5)
+     OBUF:I->O                 0.003          lambda_out_5_OBUF (lambda_out<5>)
+    ----------------------------------------
+    Total                      0.777ns (0.378ns logic, 0.399ns route)
+                                       (48.6% logic, 51.4% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 16.00 secs
+Total CPU time to Xst completion: 15.88 secs
+ 
+--> 
+
+
+Total memory usage is 425424 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

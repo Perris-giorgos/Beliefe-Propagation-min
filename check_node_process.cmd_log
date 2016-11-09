@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/newtry/check_node_process.xst" -ofn "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/newtry/check_node_process.syr" 
+xst -intstyle ise -ifn "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/newtry/check_node_process.xst" -ofn "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/newtry/check_node_process.syr" 

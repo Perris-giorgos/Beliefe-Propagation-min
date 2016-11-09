@@ -1,0 +1,63 @@
+ISim log file
+Running: /home/peraxor/MEGAsync/27-7/VHDL/BPmin/newtry/two_minimum_with_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb /home/peraxor/MEGAsync/27-7/VHDL/BPmin/newtry/two_minimum_with_isim_beh.wdb 
+ISim P.40xd (signature 0xfbc00daa)
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /two_minimum_with/c1/ : Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+at 0 ps, Instance /two_minimum_with/c2/ : Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+at 0 ps, Instance /two_minimum_with/c3/ : Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+at 0 ps, Instance /two_minimum_with/c4/ : Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+at 0 ps, Instance /two_minimum_with/c5/ : Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+at 0 ps, Instance /two_minimum_with/c6/ : Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+at 0 ps, Instance /two_minimum_with/c7/ : Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+at 0 ps, Instance /two_minimum_with/c8/ : Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+at 0 ps, Instance /two_minimum_with/c9/ : Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+at 0 ps, Instance /two_minimum_with/c10/ : Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+at 0 ps, Instance /two_minimum_with/c11/ : Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+at 0 ps, Instance /two_minimum_with/c12/ : Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+at 0 ps, Instance /two_minimum_with/c13/ : Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+at 0 ps, Instance /two_minimum_with/c14/ : Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+at 0 ps, Instance /two_minimum_with/c15/ : Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+at 0 ps, Instance /two_minimum_with/c16/ : Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+at 0 ps, Instance /two_minimum_with/c17/ : Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+Finished circuit initialization process.
+at 0 ps, Instance /two_minimum_with/c1/ : Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+at 0 ps, Instance /two_minimum_with/c2/ : Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+at 0 ps, Instance /two_minimum_with/c3/ : Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+at 0 ps, Instance /two_minimum_with/c4/ : Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+at 0 ps, Instance /two_minimum_with/c6/ : Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+at 0 ps, Instance /two_minimum_with/c5/ : Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+at 0 ps, Instance /two_minimum_with/c8/ : Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+at 0 ps, Instance /two_minimum_with/c7/ : Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+at 0 ps, Instance /two_minimum_with/c11/ : Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+at 0 ps, Instance /two_minimum_with/c9/ : Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+at 0 ps, Instance /two_minimum_with/c12/ : Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+at 0 ps, Instance /two_minimum_with/c10/ : Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+at 0 ps, Instance /two_minimum_with/c15/ : Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+at 0 ps, Instance /two_minimum_with/c16/ : Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+at 0 ps, Instance /two_minimum_with/c17/ : Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+at 0 ps, Instance /two_minimum_with/c10/ : Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+at 0 ps, Instance /two_minimum_with/c12/ : Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+at 0 ps, Instance /two_minimum_with/c9/ : Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+at 0 ps, Instance /two_minimum_with/c11/ : Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+at 0 ps, Instance /two_minimum_with/c15/ : Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+# isim force add /two_minimum_with/reg_en 1 -radix bin
+# isim force add /two_minimum_with/clk 1 -radix bin -value 0 -radix bin -time 500 ps -repeat 1 ns
+# run 0.001us
+at 1 us(1), Instance /two_minimum_with/c13/ : Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+at 1 us(1), Instance /two_minimum_with/c14/ : Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+at 1 us(2), Instance /two_minimum_with/c16/ : Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+at 1 us(2), Instance /two_minimum_with/c15/ : Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+at 1 us(3), Instance /two_minimum_with/c17/ : Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+at 1 us(4), Instance /two_minimum_with/c15/ : Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+# run 0.001us
+# run 0.001us
+# run 0.001us
+# run 0.001us
+# run 0.001us
+# run 0.001us
+# exit 0

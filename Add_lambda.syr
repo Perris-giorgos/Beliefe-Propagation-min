@@ -1,0 +1,484 @@
+Release 14.3 - xst P.40xd (lin64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.07 secs
+ 
+--> 
+Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.07 secs
+ 
+--> 
+Reading design: Add_lambda.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "Add_lambda.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "Add_lambda"
+Output Format                      : NGC
+Target Device                      : xc6vlx240t-1-ff1156
+
+---- Source Options
+Top Module Name                    : Add_lambda
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 32
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+---- Other Options
+Cores Search Directories           : {"../../belief_propagation"  }
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "/home/peraxor/MEGAsync/27-7/VHDL/belief_propagation/my_types_pkg.vhd" into library work
+Parsing package <my_types_pkg>.
+Parsing package body <my_types_pkg>.
+Parsing VHDL file "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/newtry/registerN.vhd" into library work
+Parsing entity <registerN>.
+Parsing architecture <Behavioral> of entity <registern>.
+Parsing VHDL file "/home/peraxor/MEGAsync/27-7/VHDL/belief_propagation/Add_lambda.vhd" into library work
+Parsing entity <Add_lambda>.
+Parsing architecture <Behavioral> of entity <add_lambda>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <Add_lambda> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <registerN> (architecture <Behavioral>) from library <work>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <Add_lambda>.
+    Related source file is "/home/peraxor/MEGAsync/27-7/VHDL/belief_propagation/Add_lambda.vhd".
+    Found 6-bit register for signal <b2c1>.
+    Found 6-bit register for signal <b2c2>.
+    Found 6-bit register for signal <b2c3>.
+    Found 6-bit register for signal <b2c4>.
+    Found 6-bit register for signal <b2c5>.
+    Found 6-bit register for signal <b2c6>.
+    Found 6-bit register for signal <b2c7>.
+    Found 6-bit register for signal <b2c0>.
+    Found 6-bit subtractor for signal <ro[8]_LLRs[0][5]_sub_10_OUT<5:0>> created at line 39.
+    Found 6-bit subtractor for signal <ro[8]_LLRs[1][5]_sub_20_OUT<5:0>> created at line 40.
+    Found 6-bit subtractor for signal <ro[8]_LLRs[2][5]_sub_30_OUT<5:0>> created at line 41.
+    Found 6-bit subtractor for signal <ro[8]_LLRs[3][5]_sub_40_OUT<5:0>> created at line 42.
+    Found 6-bit subtractor for signal <ro[8]_LLRs[4][5]_sub_50_OUT<5:0>> created at line 43.
+    Found 6-bit subtractor for signal <ro[8]_LLRs[5][5]_sub_60_OUT<5:0>> created at line 44.
+    Found 6-bit subtractor for signal <ro[8]_LLRs[6][5]_sub_70_OUT<5:0>> created at line 45.
+    Found 6-bit subtractor for signal <ro[8]_LLRs[7][5]_sub_81_OUT<5:0>> created at line 47.
+    Found 6-bit subtractor for signal <ro[8]_LLRs[0][5]_sub_93_OUT<5:0>> created at line 51.
+    Found 6-bit subtractor for signal <ro[8]_LLRs[1][5]_sub_103_OUT<5:0>> created at line 52.
+    Found 6-bit subtractor for signal <ro[8]_LLRs[2][5]_sub_113_OUT<5:0>> created at line 53.
+    Found 6-bit subtractor for signal <ro[8]_LLRs[3][5]_sub_123_OUT<5:0>> created at line 54.
+    Found 6-bit subtractor for signal <ro[8]_LLRs[4][5]_sub_133_OUT<5:0>> created at line 55.
+    Found 6-bit subtractor for signal <ro[8]_LLRs[5][5]_sub_143_OUT<5:0>> created at line 56.
+    Found 6-bit subtractor for signal <ro[8]_LLRs[6][5]_sub_153_OUT<5:0>> created at line 57.
+    Found 6-bit subtractor for signal <ro[8]_LLRs[7][5]_sub_164_OUT<5:0>> created at line 59.
+    Found 512x70-bit Read Only RAM for signal <_n2092>
+    Found 6-bit 32-to-1 multiplexer for signal <ro[8]_lambda[31][5]_wide_mux_8_OUT> created at line 39.
+    Found 6-bit 256-to-1 multiplexer for signal <ro[8]_lambda[255][5]_wide_mux_18_OUT> created at line 40.
+    Found 6-bit 256-to-1 multiplexer for signal <ro[8]_lambda[255][5]_wide_mux_28_OUT> created at line 41.
+    Found 6-bit 512-to-1 multiplexer for signal <ro[8]_lambda[511][5]_wide_mux_38_OUT> created at line 42.
+    Found 6-bit 512-to-1 multiplexer for signal <ro[8]_lambda[511][5]_wide_mux_48_OUT> created at line 43.
+    Found 6-bit 648-to-1 multiplexer for signal <ro[8]_X_5_o_wide_mux_58_OUT> created at line 44.
+    Found 6-bit 648-to-1 multiplexer for signal <ro[8]_X_5_o_wide_mux_68_OUT> created at line 45.
+    Found 6-bit 648-to-1 multiplexer for signal <ro[8]_X_5_o_wide_mux_79_OUT> created at line 47.
+    Found 6-bit 32-to-1 multiplexer for signal <ro[8]_lam[31][5]_wide_mux_91_OUT> created at line 51.
+    Found 6-bit 256-to-1 multiplexer for signal <ro[8]_lam[255][5]_wide_mux_101_OUT> created at line 52.
+    Found 6-bit 256-to-1 multiplexer for signal <ro[8]_lam[255][5]_wide_mux_111_OUT> created at line 53.
+    Found 6-bit 512-to-1 multiplexer for signal <ro[8]_lam[511][5]_wide_mux_121_OUT> created at line 54.
+    Found 6-bit 512-to-1 multiplexer for signal <ro[8]_lam[511][5]_wide_mux_131_OUT> created at line 55.
+    Found 6-bit 648-to-1 multiplexer for signal <ro[8]_X_5_o_wide_mux_141_OUT> created at line 56.
+    Found 6-bit 648-to-1 multiplexer for signal <ro[8]_X_5_o_wide_mux_151_OUT> created at line 57.
+    Found 6-bit 648-to-1 multiplexer for signal <ro[8]_X_5_o_wide_mux_162_OUT> created at line 59.
+    Summary:
+	inferred   1 RAM(s).
+	inferred   8 Adder/Subtractor(s).
+	inferred  48 D-type flip-flop(s).
+	inferred  24 Multiplexer(s).
+Unit <Add_lambda> synthesized.
+
+Synthesizing Unit <registerN>.
+    Related source file is "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/newtry/registerN.vhd".
+    Found 6-bit register for signal <q>.
+    Summary:
+	inferred   6 D-type flip-flop(s).
+Unit <registerN> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 1
+ 512x70-bit single-port Read Only RAM                  : 1
+# Adders/Subtractors                                   : 8
+ 6-bit subtractor                                      : 8
+# Registers                                            : 16
+ 6-bit register                                        : 16
+# Multiplexers                                         : 24
+ 6-bit 2-to-1 multiplexer                              : 8
+ 6-bit 256-to-1 multiplexer                            : 4
+ 6-bit 32-to-1 multiplexer                             : 2
+ 6-bit 512-to-1 multiplexer                            : 4
+ 6-bit 648-to-1 multiplexer                            : 6
+
+=========================================================================
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+Synthesizing (advanced) Unit <Add_lambda>.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram__n2092> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 512-word x 70-bit                   |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <ro>            |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+Unit <Add_lambda> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 1
+ 512x70-bit single-port distributed Read Only RAM      : 1
+# Adders/Subtractors                                   : 8
+ 6-bit subtractor                                      : 8
+# Registers                                            : 96
+ Flip-Flops                                            : 96
+# Multiplexers                                         : 24
+ 6-bit 2-to-1 multiplexer                              : 8
+ 6-bit 256-to-1 multiplexer                            : 4
+ 6-bit 32-to-1 multiplexer                             : 2
+ 6-bit 512-to-1 multiplexer                            : 4
+ 6-bit 648-to-1 multiplexer                            : 6
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <Add_lambda> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block Add_lambda, actual ratio is 14.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 96
+ Flip-Flops                                            : 96
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : Add_lambda.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 15739
+#      INV                         : 3
+#      LUT1                        : 1
+#      LUT2                        : 28
+#      LUT3                        : 52
+#      LUT4                        : 45
+#      LUT5                        : 95
+#      LUT6                        : 13950
+#      MUXCY                       : 40
+#      MUXF7                       : 1032
+#      MUXF8                       : 444
+#      VCC                         : 1
+#      XORCY                       : 48
+# FlipFlops/Latches                : 96
+#      FD                          : 42
+#      FDR                         : 6
+#      FDRE                        : 48
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 7884
+#      IBUF                        : 7836
+#      OBUF                        : 48
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6vlx240tff1156-1 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:              96  out of  301440     0%  
+ Number of Slice LUTs:                14174  out of  150720     9%  
+    Number used as Logic:             14174  out of  150720     9%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:  14243
+   Number with an unused Flip Flop:   14147  out of  14243    99%  
+   Number with an unused LUT:            69  out of  14243     0%  
+   Number of fully used LUT-FF pairs:    27  out of  14243     0%  
+   Number of unique control sets:         3
+
+IO Utilization: 
+ Number of IOs:                        7885
+ Number of bonded IOBs:                7885  out of    600   1314% (*) 
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                1  out of     32     3%  
+
+WARNING:Xst:1336 -  (*) More than 100% of Device resources are used
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 96    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -1
+
+   Minimum period: 0.785ns (Maximum Frequency: 1273.885MHz)
+   Minimum input arrival time before clock: 7.859ns
+   Maximum output required time after clock: 0.777ns
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 0.785ns (frequency: 1273.885MHz)
+  Total number of paths / destination ports: 48 / 48
+-------------------------------------------------------------------------
+Delay:               0.785ns (Levels of Logic = 0)
+  Source:            b2c7_5 (FF)
+  Destination:       b7/q_5 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: b2c7_5 to b7/q_5
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              1   0.375   0.399  b2c7_5 (b2c7_5)
+     FDRE:D                    0.011          b7/q_5
+    ----------------------------------------
+    Total                      0.785ns (0.386ns logic, 0.399ns route)
+                                       (49.2% logic, 50.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 8146662 / 150
+-------------------------------------------------------------------------
+Offset:              7.859ns (Levels of Logic = 17)
+  Source:            ro<1> (PAD)
+  Destination:       b2c4_5 (FF)
+  Destination Clock: clk rising
+
+  Data Path: ro<1> to b2c4_5
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O           330   0.003   0.993  ro_1_IBUF (ro_1_IBUF)
+     LUT6:I1->O            6   0.068   0.450  Mram__n20921581 (Mram__n2092158)
+     LUT6:I5->O            1   0.068   0.581  Mram__n2092162112 (Mram__n2092162111)
+     LUT6:I3->O            1   0.068   0.775  Mram__n2092162114 (Mram__n2092162113)
+     LUT6:I1->O         1536   0.068   1.078  Mram__n20921621119 (_n2092<38>)
+     LUT6:I0->O            1   0.068   0.638  Mmux_ro[8]_lam[511][5]_wide_mux_131_OUT_1814 (Mmux_ro[8]_lam[511][5]_wide_mux_131_OUT_1814)
+     LUT6:I2->O            1   0.068   0.638  Mmux_ro[8]_lam[511][5]_wide_mux_131_OUT_134 (Mmux_ro[8]_lam[511][5]_wide_mux_131_OUT_134)
+     LUT6:I2->O            1   0.068   0.638  Mmux_ro[8]_lam[511][5]_wide_mux_131_OUT_81 (Mmux_ro[8]_lam[511][5]_wide_mux_131_OUT_81)
+     LUT6:I2->O            1   0.068   0.000  Mmux_ro[8]_lam[511][5]_wide_mux_131_OUT_3 (Mmux_ro[8]_lam[511][5]_wide_mux_131_OUT_3)
+     MUXF7:I1->O           2   0.248   0.587  Mmux_ro[8]_lam[511][5]_wide_mux_131_OUT_2_f7 (ro[8]_lam[511][5]_wide_mux_131_OUT<0>)
+     LUT4:I1->O            1   0.068   0.000  Mmux_b2c4[5]_ro[8]_mux_175_OUT_rs_lut<0> (Mmux_b2c4[5]_ro[8]_mux_175_OUT_rs_lut<0>)
+     MUXCY:S->O            1   0.290   0.000  Mmux_b2c4[5]_ro[8]_mux_175_OUT_rs_cy<0> (Mmux_b2c4[5]_ro[8]_mux_175_OUT_rs_cy<0>)
+     MUXCY:CI->O           1   0.019   0.000  Mmux_b2c4[5]_ro[8]_mux_175_OUT_rs_cy<1> (Mmux_b2c4[5]_ro[8]_mux_175_OUT_rs_cy<1>)
+     MUXCY:CI->O           1   0.019   0.000  Mmux_b2c4[5]_ro[8]_mux_175_OUT_rs_cy<2> (Mmux_b2c4[5]_ro[8]_mux_175_OUT_rs_cy<2>)
+     MUXCY:CI->O           1   0.019   0.000  Mmux_b2c4[5]_ro[8]_mux_175_OUT_rs_cy<3> (Mmux_b2c4[5]_ro[8]_mux_175_OUT_rs_cy<3>)
+     MUXCY:CI->O           0   0.019   0.000  Mmux_b2c4[5]_ro[8]_mux_175_OUT_rs_cy<4> (Mmux_b2c4[5]_ro[8]_mux_175_OUT_rs_cy<4>)
+     XORCY:CI->O           1   0.239   0.000  Mmux_b2c4[5]_ro[8]_mux_175_OUT_rs_xor<5> (b2c4[5]_ro[8]_mux_175_OUT<5>)
+     FD:D                      0.011          b2c4_5
+    ----------------------------------------
+    Total                      7.859ns (1.481ns logic, 6.378ns route)
+                                       (18.8% logic, 81.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 48 / 48
+-------------------------------------------------------------------------
+Offset:              0.777ns (Levels of Logic = 1)
+  Source:            b0/q_5 (FF)
+  Destination:       B2C<0><5> (PAD)
+  Source Clock:      clk rising
+
+  Data Path: b0/q_5 to B2C<0><5>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRE:C->Q             1   0.375   0.399  b0/q_5 (b0/q_5)
+     OBUF:I->O                 0.003          B2C_0__5_OBUF (B2C<0><5>)
+    ----------------------------------------
+    Total                      0.777ns (0.378ns logic, 0.399ns route)
+                                       (48.6% logic, 51.4% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |    0.785|         |         |         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 30.00 secs
+Total CPU time to Xst completion: 30.18 secs
+ 
+--> 
+
+
+Total memory usage is 526152 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    2 (   0 filtered)
+

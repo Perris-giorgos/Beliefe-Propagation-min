@@ -1,0 +1,4 @@
+xst -intstyle ise -ifn "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/newtry/shift_registers_sipo.xst" -ofn "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/newtry/shift_registers_sipo.syr" 
+xst -intstyle ise -ifn "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/newtry/shift_registers_sipo.xst" -ofn "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/newtry/shift_registers_sipo.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../belief_propagation -nt timestamp -i -p xc6vlx240t-ff1156-1 shift_registers_sipo.ngc shift_registers_sipo.ngd  
+map -intstyle ise -p xc6vlx240t-ff1156-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o shift_registers_sipo_map.ncd shift_registers_sipo.ngd shift_registers_sipo.pcf 

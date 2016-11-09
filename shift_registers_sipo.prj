@@ -1,0 +1,2 @@
+vhdl work "../../belief_propagation/my_types_pkg.vhd"
+vhdl work "../../belief_propagation/shiftregister_SIPO.vhd"

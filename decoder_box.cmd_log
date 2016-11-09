@@ -1,0 +1,45 @@
+xst -intstyle ise -ifn "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/newtry/decoder_box.xst" -ofn "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/newtry/decoder_box.syr" 
+xst -intstyle ise -ifn "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/newtry/decoder_box.xst" -ofn "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/newtry/decoder_box.syr" 
+xst -intstyle ise -ifn "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/newtry/decoder_box.xst" -ofn "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/newtry/decoder_box.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../belief_propagation -nt timestamp -i -p xc6vlx240t-ff1156-1 decoder_box.ngc decoder_box.ngd  
+map -intstyle ise -p xc6vlx240t-ff1156-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o decoder_box_map.ncd decoder_box.ngd decoder_box.pcf 
+map -intstyle ise -p xc6vlx240t-ff1156-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o decoder_box_map.ncd decoder_box.ngd decoder_box.pcf 
+par -w -intstyle ise -ol high -mt off decoder_box_map.ncd decoder_box.ncd decoder_box.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml decoder_box.twx decoder_box.ncd -o decoder_box.twr decoder_box.pcf 
+xst -intstyle ise -ifn "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/newtry/decoder_box.xst" -ofn "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/newtry/decoder_box.syr" 
+xst -intstyle ise -ifn "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/newtry/decoder_box.xst" -ofn "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/newtry/decoder_box.syr" 
+xst -intstyle ise -ifn "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/newtry/decoder_box.xst" -ofn "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/newtry/decoder_box.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../belief_propagation -nt timestamp -i -p xc6vlx240t-ff1156-1 decoder_box.ngc decoder_box.ngd  
+map -intstyle ise -p xc6vlx240t-ff1156-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o decoder_box_map.ncd decoder_box.ngd decoder_box.pcf 
+par -w -intstyle ise -ol high -mt off decoder_box_map.ncd decoder_box.ncd decoder_box.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml decoder_box.twx decoder_box.ncd -o decoder_box.twr decoder_box.pcf 
+xst -intstyle ise -ifn "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/newtry/decoder_box.xst" -ofn "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/newtry/decoder_box.syr" 
+xst -intstyle ise -ifn "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/newtry/decoder_box.xst" -ofn "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/newtry/decoder_box.syr" 
+xst -intstyle ise -ifn "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/newtry/decoder_box.xst" -ofn "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/newtry/decoder_box.syr" 
+xst -intstyle ise -ifn "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/newtry/decoder_box.xst" -ofn "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/newtry/decoder_box.syr" 
+xst -intstyle ise -ifn "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/newtry/decoder_box.xst" -ofn "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/newtry/decoder_box.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../belief_propagation -nt timestamp -i -p xc6vlx240t-ff1156-1 decoder_box.ngc decoder_box.ngd  
+map -intstyle ise -p xc6vlx240t-ff1156-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o decoder_box_map.ncd decoder_box.ngd decoder_box.pcf 
+par -w -intstyle ise -ol high -mt off decoder_box_map.ncd decoder_box.ncd decoder_box.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml decoder_box.twx decoder_box.ncd -o decoder_box.twr decoder_box.pcf 
+xst -intstyle ise -ifn "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/newtry/decoder_box.xst" -ofn "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/newtry/decoder_box.syr" 
+xst -intstyle ise -ifn "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/newtry/decoder_box.xst" -ofn "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/newtry/decoder_box.syr" 
+xst -intstyle ise -ifn "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/newtry/decoder_box.xst" -ofn "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/newtry/decoder_box.syr" 
+xst -intstyle ise -ifn "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/newtry/decoder_box.xst" -ofn "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/newtry/decoder_box.syr" 
+xst -intstyle ise -ifn "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/newtry/decoder_box.xst" -ofn "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/newtry/decoder_box.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../belief_propagation -nt timestamp -i -p xc6vlx240t-ff1156-1 decoder_box.ngc decoder_box.ngd  
+map -intstyle ise -p xc6vlx240t-ff1156-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o decoder_box_map.ncd decoder_box.ngd decoder_box.pcf 
+par -w -intstyle ise -ol high -mt off decoder_box_map.ncd decoder_box.ncd decoder_box.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml decoder_box.twx decoder_box.ncd -o decoder_box.twr decoder_box.pcf 
+xst -intstyle ise -ifn "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/newtry/decoder_box.xst" -ofn "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/newtry/decoder_box.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../belief_propagation -nt timestamp -i -p xc6vlx240t-ff1156-1 decoder_box.ngc decoder_box.ngd  
+map -intstyle ise -p xc6vlx240t-ff1156-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o decoder_box_map.ncd decoder_box.ngd decoder_box.pcf 
+xst -intstyle ise -ifn "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/newtry/decoder_box.xst" -ofn "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/newtry/decoder_box.syr" 
+xst -intstyle ise -ifn "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/newtry/decoder_box.xst" -ofn "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/newtry/decoder_box.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../belief_propagation -nt timestamp -i -p xc6vlx240t-ff1156-1 decoder_box.ngc decoder_box.ngd  
+map -intstyle ise -p xc6vlx240t-ff1156-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o decoder_box_map.ncd decoder_box.ngd decoder_box.pcf 
+par -w -intstyle ise -ol high -mt off decoder_box_map.ncd decoder_box.ncd decoder_box.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml decoder_box.twx decoder_box.ncd -o decoder_box.twr decoder_box.pcf 
+xst -intstyle ise -ifn "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/newtry/decoder_box.xst" -ofn "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/newtry/decoder_box.syr" 
+xst -intstyle ise -ifn "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/newtry/decoder_box.xst" -ofn "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/newtry/decoder_box.syr" 
+xst -intstyle ise -ifn "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/newtry/decoder_box.xst" -ofn "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/newtry/decoder_box.syr" 

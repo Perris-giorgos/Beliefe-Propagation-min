@@ -1,0 +1,22 @@
+xst -intstyle ise -ifn "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/newtry/Check2BitRAM.xst" -ofn "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/newtry/Check2BitRAM.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../belief_propagation -nt timestamp -i -p xc6vlx240t-ff1156-1 Check2BitRAM.ngc Check2BitRAM.ngd  
+map -intstyle ise -p xc6vlx240t-ff1156-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Check2BitRAM_map.ncd Check2BitRAM.ngd Check2BitRAM.pcf 
+par -w -intstyle ise -ol high -mt off Check2BitRAM_map.ncd Check2BitRAM.ncd Check2BitRAM.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Check2BitRAM.twx Check2BitRAM.ncd -o Check2BitRAM.twr Check2BitRAM.pcf 
+xst -intstyle ise -ifn "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/newtry/Check2BitRAM.xst" -ofn "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/newtry/Check2BitRAM.syr" 
+xst -intstyle ise -ifn "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/newtry/Check2BitRAM.xst" -ofn "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/newtry/Check2BitRAM.syr" 
+xst -intstyle ise -ifn "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/newtry/Check2BitRAM.xst" -ofn "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/newtry/Check2BitRAM.syr" 
+xst -intstyle ise -ifn "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/newtry/Check2BitRAM.xst" -ofn "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/newtry/Check2BitRAM.syr" 
+xst -intstyle ise -ifn "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/newtry/Check2BitRAM.xst" -ofn "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/newtry/Check2BitRAM.syr" 
+xst -intstyle ise -ifn "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/newtry/Check2BitRAM.xst" -ofn "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/newtry/Check2BitRAM.syr" 
+xst -intstyle ise -ifn "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/newtry/Check2BitRAM.xst" -ofn "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/newtry/Check2BitRAM.syr" 
+xst -intstyle ise -ifn "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/newtry/Check2BitRAM.xst" -ofn "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/newtry/Check2BitRAM.syr" 
+xst -intstyle ise -ifn "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/newtry/Check2BitRAM.xst" -ofn "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/newtry/Check2BitRAM.syr" 
+xst -intstyle ise -ifn "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/newtry/Check2BitRAM.xst" -ofn "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/newtry/Check2BitRAM.syr" 
+xst -intstyle ise -ifn "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/newtry/Check2BitRAM.xst" -ofn "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/newtry/Check2BitRAM.syr" 
+xst -intstyle ise -ifn "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/newtry/Check2BitRAM.xst" -ofn "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/newtry/Check2BitRAM.syr" 
+xst -intstyle ise -ifn "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/newtry/Check2BitRAM.xst" -ofn "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/newtry/Check2BitRAM.syr" 
+xst -intstyle ise -ifn "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/newtry/Check2BitRAM.xst" -ofn "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/newtry/Check2BitRAM.syr" 
+xst -intstyle ise -ifn "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/newtry/Check2BitRAM.xst" -ofn "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/newtry/Check2BitRAM.syr" 
+xst -intstyle ise -ifn "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/newtry/Check2BitRAM.xst" -ofn "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/newtry/Check2BitRAM.syr" 
+xst -intstyle ise -ifn "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/newtry/Check2BitRAM.xst" -ofn "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/newtry/Check2BitRAM.syr" 

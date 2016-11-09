@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/newtry/Add_lambda.xst" -ofn "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/newtry/Add_lambda.syr" 

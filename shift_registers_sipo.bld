@@ -1,0 +1,36 @@
+Release 14.3 ngdbuild P.40xd (lin64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Command Line: /opt/Xilinx/14.3/ISE_DS/ISE/bin/lin64/unwrapped/ngdbuild -intstyle
+ise -dd _ngo -sd ../../belief_propagation -nt timestamp -i -p
+xc6vlx240t-ff1156-1 shift_registers_sipo.ngc shift_registers_sipo.ngd
+
+Reading NGO file
+"/home/peraxor/MEGAsync/27-7/VHDL/BPmin/newtry/shift_registers_sipo.ngc" ...
+Gathering constraint information from source properties...
+Done.
+
+Resolving constraint associations...
+Checking Constraint Associations...
+Done...
+
+Checking expanded design ...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 440336 kilobytes
+
+Writing NGD file "shift_registers_sipo.ngd" ...
+Total REAL time to NGDBUILD completion:  7 sec
+Total CPU time to NGDBUILD completion:   7 sec
+
+Writing NGDBUILD log file "shift_registers_sipo.bld"...

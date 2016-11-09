@@ -1,0 +1,28 @@
+Running: /opt/Xilinx/14.3/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib secureip -o /home/peraxor/MEGAsync/27-7/VHDL/BPmin/newtry/two_minimum_with_isim_beh.exe -prj /home/peraxor/MEGAsync/27-7/VHDL/BPmin/newtry/two_minimum_with_beh.prj work.two_minimum_with 
+ISim P.40xd (signature 0xfbc00daa)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/newtry/../../belief_propagation/my_types_pkg.vhd" into library work
+Parsing VHDL file "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/newtry/registerN.vhd" into library work
+Parsing VHDL file "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/newtry/comparator.vhd" into library work
+Parsing VHDL file "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/newtry/../../belief_propagation/register3bit.vhd" into library work
+Parsing VHDL file "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/newtry/tw_minimum_withregistrs.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 96824 KB
+Fuse CPU Usage: 1210 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling package my_types_pkg
+Compiling architecture comp of entity Comparator [comparator_default]
+Compiling architecture behavioral of entity registerN [registern_default]
+Compiling architecture behavioral of entity register3bit [register3bit_default]
+Compiling architecture two_min_with of entity two_minimum_with
+Time Resolution for simulation is 1ps.
+Compiled 11 VHDL Units
+Built simulation executable /home/peraxor/MEGAsync/27-7/VHDL/BPmin/newtry/two_minimum_with_isim_beh.exe
+Fuse Memory Usage: 670780 KB
+Fuse CPU Usage: 1310 ms
+GCC CPU Usage: 2220 ms

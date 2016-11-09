@@ -1,0 +1,1139 @@
+Release 14.3 - xst P.40xd (lin64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.04 secs
+ 
+--> 
+Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.04 secs
+ 
+--> 
+Reading design: shift_registers_sipo.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "shift_registers_sipo.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "shift_registers_sipo"
+Output Format                      : NGC
+Target Device                      : xc6vlx240t-1-ff1156
+
+---- Source Options
+Top Module Name                    : shift_registers_sipo
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 32
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : Yes
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+---- Other Options
+Cores Search Directories           : {"../../belief_propagation"  }
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "/home/peraxor/MEGAsync/27-7/VHDL/belief_propagation/my_types_pkg.vhd" into library work
+Parsing package <my_types_pkg>.
+Parsing package body <my_types_pkg>.
+Parsing VHDL file "/home/peraxor/MEGAsync/27-7/VHDL/belief_propagation/shiftregister_SIPO.vhd" into library work
+Parsing entity <shift_registers_sipo>.
+Parsing architecture <archi> of entity <shift_registers_sipo>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <shift_registers_sipo> (architecture <archi>) from library <work>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <shift_registers_sipo>.
+    Related source file is "/home/peraxor/MEGAsync/27-7/VHDL/belief_propagation/shiftregister_SIPO.vhd".
+    Found 1-bit register for signal <complete>.
+    Found 6-bit register for signal <SO<0>>.
+    Found 6-bit register for signal <SO<1>>.
+    Found 6-bit register for signal <SO<2>>.
+    Found 6-bit register for signal <SO<3>>.
+    Found 6-bit register for signal <SO<4>>.
+    Found 6-bit register for signal <SO<5>>.
+    Found 6-bit register for signal <SO<6>>.
+    Found 6-bit register for signal <SO<7>>.
+    Found 6-bit register for signal <SO<8>>.
+    Found 6-bit register for signal <SO<9>>.
+    Found 6-bit register for signal <SO<10>>.
+    Found 6-bit register for signal <SO<11>>.
+    Found 6-bit register for signal <SO<12>>.
+    Found 6-bit register for signal <SO<13>>.
+    Found 6-bit register for signal <SO<14>>.
+    Found 6-bit register for signal <SO<15>>.
+    Found 6-bit register for signal <SO<16>>.
+    Found 6-bit register for signal <SO<17>>.
+    Found 6-bit register for signal <SO<18>>.
+    Found 6-bit register for signal <SO<19>>.
+    Found 6-bit register for signal <SO<20>>.
+    Found 6-bit register for signal <SO<21>>.
+    Found 6-bit register for signal <SO<22>>.
+    Found 6-bit register for signal <SO<23>>.
+    Found 6-bit register for signal <SO<24>>.
+    Found 6-bit register for signal <SO<25>>.
+    Found 6-bit register for signal <SO<26>>.
+    Found 6-bit register for signal <SO<27>>.
+    Found 6-bit register for signal <SO<28>>.
+    Found 6-bit register for signal <SO<29>>.
+    Found 6-bit register for signal <SO<30>>.
+    Found 6-bit register for signal <SO<31>>.
+    Found 6-bit register for signal <SO<32>>.
+    Found 6-bit register for signal <SO<33>>.
+    Found 6-bit register for signal <SO<34>>.
+    Found 6-bit register for signal <SO<35>>.
+    Found 6-bit register for signal <SO<36>>.
+    Found 6-bit register for signal <SO<37>>.
+    Found 6-bit register for signal <SO<38>>.
+    Found 6-bit register for signal <SO<39>>.
+    Found 6-bit register for signal <SO<40>>.
+    Found 6-bit register for signal <SO<41>>.
+    Found 6-bit register for signal <SO<42>>.
+    Found 6-bit register for signal <SO<43>>.
+    Found 6-bit register for signal <SO<44>>.
+    Found 6-bit register for signal <SO<45>>.
+    Found 6-bit register for signal <SO<46>>.
+    Found 6-bit register for signal <SO<47>>.
+    Found 6-bit register for signal <SO<48>>.
+    Found 6-bit register for signal <SO<49>>.
+    Found 6-bit register for signal <SO<50>>.
+    Found 6-bit register for signal <SO<51>>.
+    Found 6-bit register for signal <SO<52>>.
+    Found 6-bit register for signal <SO<53>>.
+    Found 6-bit register for signal <SO<54>>.
+    Found 6-bit register for signal <SO<55>>.
+    Found 6-bit register for signal <SO<56>>.
+    Found 6-bit register for signal <SO<57>>.
+    Found 6-bit register for signal <SO<58>>.
+    Found 6-bit register for signal <SO<59>>.
+    Found 6-bit register for signal <SO<60>>.
+    Found 6-bit register for signal <SO<61>>.
+    Found 6-bit register for signal <SO<62>>.
+    Found 6-bit register for signal <SO<63>>.
+    Found 6-bit register for signal <SO<64>>.
+    Found 6-bit register for signal <SO<65>>.
+    Found 6-bit register for signal <SO<66>>.
+    Found 6-bit register for signal <SO<67>>.
+    Found 6-bit register for signal <SO<68>>.
+    Found 6-bit register for signal <SO<69>>.
+    Found 6-bit register for signal <SO<70>>.
+    Found 6-bit register for signal <SO<71>>.
+    Found 6-bit register for signal <SO<72>>.
+    Found 6-bit register for signal <SO<73>>.
+    Found 6-bit register for signal <SO<74>>.
+    Found 6-bit register for signal <SO<75>>.
+    Found 6-bit register for signal <SO<76>>.
+    Found 6-bit register for signal <SO<77>>.
+    Found 6-bit register for signal <SO<78>>.
+    Found 6-bit register for signal <SO<79>>.
+    Found 6-bit register for signal <SO<80>>.
+    Found 6-bit register for signal <SO<81>>.
+    Found 6-bit register for signal <SO<82>>.
+    Found 6-bit register for signal <SO<83>>.
+    Found 6-bit register for signal <SO<84>>.
+    Found 6-bit register for signal <SO<85>>.
+    Found 6-bit register for signal <SO<86>>.
+    Found 6-bit register for signal <SO<87>>.
+    Found 6-bit register for signal <SO<88>>.
+    Found 6-bit register for signal <SO<89>>.
+    Found 6-bit register for signal <SO<90>>.
+    Found 6-bit register for signal <SO<91>>.
+    Found 6-bit register for signal <SO<92>>.
+    Found 6-bit register for signal <SO<93>>.
+    Found 6-bit register for signal <SO<94>>.
+    Found 6-bit register for signal <SO<95>>.
+    Found 6-bit register for signal <SO<96>>.
+    Found 6-bit register for signal <SO<97>>.
+    Found 6-bit register for signal <SO<98>>.
+    Found 6-bit register for signal <SO<99>>.
+    Found 6-bit register for signal <SO<100>>.
+    Found 6-bit register for signal <SO<101>>.
+    Found 6-bit register for signal <SO<102>>.
+    Found 6-bit register for signal <SO<103>>.
+    Found 6-bit register for signal <SO<104>>.
+    Found 6-bit register for signal <SO<105>>.
+    Found 6-bit register for signal <SO<106>>.
+    Found 6-bit register for signal <SO<107>>.
+    Found 6-bit register for signal <SO<108>>.
+    Found 6-bit register for signal <SO<109>>.
+    Found 6-bit register for signal <SO<110>>.
+    Found 6-bit register for signal <SO<111>>.
+    Found 6-bit register for signal <SO<112>>.
+    Found 6-bit register for signal <SO<113>>.
+    Found 6-bit register for signal <SO<114>>.
+    Found 6-bit register for signal <SO<115>>.
+    Found 6-bit register for signal <SO<116>>.
+    Found 6-bit register for signal <SO<117>>.
+    Found 6-bit register for signal <SO<118>>.
+    Found 6-bit register for signal <SO<119>>.
+    Found 6-bit register for signal <SO<120>>.
+    Found 6-bit register for signal <SO<121>>.
+    Found 6-bit register for signal <SO<122>>.
+    Found 6-bit register for signal <SO<123>>.
+    Found 6-bit register for signal <SO<124>>.
+    Found 6-bit register for signal <SO<125>>.
+    Found 6-bit register for signal <SO<126>>.
+    Found 6-bit register for signal <SO<127>>.
+    Found 6-bit register for signal <SO<128>>.
+    Found 6-bit register for signal <SO<129>>.
+    Found 6-bit register for signal <SO<130>>.
+    Found 6-bit register for signal <SO<131>>.
+    Found 6-bit register for signal <SO<132>>.
+    Found 6-bit register for signal <SO<133>>.
+    Found 6-bit register for signal <SO<134>>.
+    Found 6-bit register for signal <SO<135>>.
+    Found 6-bit register for signal <SO<136>>.
+    Found 6-bit register for signal <SO<137>>.
+    Found 6-bit register for signal <SO<138>>.
+    Found 6-bit register for signal <SO<139>>.
+    Found 6-bit register for signal <SO<140>>.
+    Found 6-bit register for signal <SO<141>>.
+    Found 6-bit register for signal <SO<142>>.
+    Found 6-bit register for signal <SO<143>>.
+    Found 6-bit register for signal <SO<144>>.
+    Found 6-bit register for signal <SO<145>>.
+    Found 6-bit register for signal <SO<146>>.
+    Found 6-bit register for signal <SO<147>>.
+    Found 6-bit register for signal <SO<148>>.
+    Found 6-bit register for signal <SO<149>>.
+    Found 6-bit register for signal <SO<150>>.
+    Found 6-bit register for signal <SO<151>>.
+    Found 6-bit register for signal <SO<152>>.
+    Found 6-bit register for signal <SO<153>>.
+    Found 6-bit register for signal <SO<154>>.
+    Found 6-bit register for signal <SO<155>>.
+    Found 6-bit register for signal <SO<156>>.
+    Found 6-bit register for signal <SO<157>>.
+    Found 6-bit register for signal <SO<158>>.
+    Found 6-bit register for signal <SO<159>>.
+    Found 6-bit register for signal <SO<160>>.
+    Found 6-bit register for signal <SO<161>>.
+    Found 6-bit register for signal <SO<162>>.
+    Found 6-bit register for signal <SO<163>>.
+    Found 6-bit register for signal <SO<164>>.
+    Found 6-bit register for signal <SO<165>>.
+    Found 6-bit register for signal <SO<166>>.
+    Found 6-bit register for signal <SO<167>>.
+    Found 6-bit register for signal <SO<168>>.
+    Found 6-bit register for signal <SO<169>>.
+    Found 6-bit register for signal <SO<170>>.
+    Found 6-bit register for signal <SO<171>>.
+    Found 6-bit register for signal <SO<172>>.
+    Found 6-bit register for signal <SO<173>>.
+    Found 6-bit register for signal <SO<174>>.
+    Found 6-bit register for signal <SO<175>>.
+    Found 6-bit register for signal <SO<176>>.
+    Found 6-bit register for signal <SO<177>>.
+    Found 6-bit register for signal <SO<178>>.
+    Found 6-bit register for signal <SO<179>>.
+    Found 6-bit register for signal <SO<180>>.
+    Found 6-bit register for signal <SO<181>>.
+    Found 6-bit register for signal <SO<182>>.
+    Found 6-bit register for signal <SO<183>>.
+    Found 6-bit register for signal <SO<184>>.
+    Found 6-bit register for signal <SO<185>>.
+    Found 6-bit register for signal <SO<186>>.
+    Found 6-bit register for signal <SO<187>>.
+    Found 6-bit register for signal <SO<188>>.
+    Found 6-bit register for signal <SO<189>>.
+    Found 6-bit register for signal <SO<190>>.
+    Found 6-bit register for signal <SO<191>>.
+    Found 6-bit register for signal <SO<192>>.
+    Found 6-bit register for signal <SO<193>>.
+    Found 6-bit register for signal <SO<194>>.
+    Found 6-bit register for signal <SO<195>>.
+    Found 6-bit register for signal <SO<196>>.
+    Found 6-bit register for signal <SO<197>>.
+    Found 6-bit register for signal <SO<198>>.
+    Found 6-bit register for signal <SO<199>>.
+    Found 6-bit register for signal <SO<200>>.
+    Found 6-bit register for signal <SO<201>>.
+    Found 6-bit register for signal <SO<202>>.
+    Found 6-bit register for signal <SO<203>>.
+    Found 6-bit register for signal <SO<204>>.
+    Found 6-bit register for signal <SO<205>>.
+    Found 6-bit register for signal <SO<206>>.
+    Found 6-bit register for signal <SO<207>>.
+    Found 6-bit register for signal <SO<208>>.
+    Found 6-bit register for signal <SO<209>>.
+    Found 6-bit register for signal <SO<210>>.
+    Found 6-bit register for signal <SO<211>>.
+    Found 6-bit register for signal <SO<212>>.
+    Found 6-bit register for signal <SO<213>>.
+    Found 6-bit register for signal <SO<214>>.
+    Found 6-bit register for signal <SO<215>>.
+    Found 6-bit register for signal <SO<216>>.
+    Found 6-bit register for signal <SO<217>>.
+    Found 6-bit register for signal <SO<218>>.
+    Found 6-bit register for signal <SO<219>>.
+    Found 6-bit register for signal <SO<220>>.
+    Found 6-bit register for signal <SO<221>>.
+    Found 6-bit register for signal <SO<222>>.
+    Found 6-bit register for signal <SO<223>>.
+    Found 6-bit register for signal <SO<224>>.
+    Found 6-bit register for signal <SO<225>>.
+    Found 6-bit register for signal <SO<226>>.
+    Found 6-bit register for signal <SO<227>>.
+    Found 6-bit register for signal <SO<228>>.
+    Found 6-bit register for signal <SO<229>>.
+    Found 6-bit register for signal <SO<230>>.
+    Found 6-bit register for signal <SO<231>>.
+    Found 6-bit register for signal <SO<232>>.
+    Found 6-bit register for signal <SO<233>>.
+    Found 6-bit register for signal <SO<234>>.
+    Found 6-bit register for signal <SO<235>>.
+    Found 6-bit register for signal <SO<236>>.
+    Found 6-bit register for signal <SO<237>>.
+    Found 6-bit register for signal <SO<238>>.
+    Found 6-bit register for signal <SO<239>>.
+    Found 6-bit register for signal <SO<240>>.
+    Found 6-bit register for signal <SO<241>>.
+    Found 6-bit register for signal <SO<242>>.
+    Found 6-bit register for signal <SO<243>>.
+    Found 6-bit register for signal <SO<244>>.
+    Found 6-bit register for signal <SO<245>>.
+    Found 6-bit register for signal <SO<246>>.
+    Found 6-bit register for signal <SO<247>>.
+    Found 6-bit register for signal <SO<248>>.
+    Found 6-bit register for signal <SO<249>>.
+    Found 6-bit register for signal <SO<250>>.
+    Found 6-bit register for signal <SO<251>>.
+    Found 6-bit register for signal <SO<252>>.
+    Found 6-bit register for signal <SO<253>>.
+    Found 6-bit register for signal <SO<254>>.
+    Found 6-bit register for signal <SO<255>>.
+    Found 6-bit register for signal <SO<256>>.
+    Found 6-bit register for signal <SO<257>>.
+    Found 6-bit register for signal <SO<258>>.
+    Found 6-bit register for signal <SO<259>>.
+    Found 6-bit register for signal <SO<260>>.
+    Found 6-bit register for signal <SO<261>>.
+    Found 6-bit register for signal <SO<262>>.
+    Found 6-bit register for signal <SO<263>>.
+    Found 6-bit register for signal <SO<264>>.
+    Found 6-bit register for signal <SO<265>>.
+    Found 6-bit register for signal <SO<266>>.
+    Found 6-bit register for signal <SO<267>>.
+    Found 6-bit register for signal <SO<268>>.
+    Found 6-bit register for signal <SO<269>>.
+    Found 6-bit register for signal <SO<270>>.
+    Found 6-bit register for signal <SO<271>>.
+    Found 6-bit register for signal <SO<272>>.
+    Found 6-bit register for signal <SO<273>>.
+    Found 6-bit register for signal <SO<274>>.
+    Found 6-bit register for signal <SO<275>>.
+    Found 6-bit register for signal <SO<276>>.
+    Found 6-bit register for signal <SO<277>>.
+    Found 6-bit register for signal <SO<278>>.
+    Found 6-bit register for signal <SO<279>>.
+    Found 6-bit register for signal <SO<280>>.
+    Found 6-bit register for signal <SO<281>>.
+    Found 6-bit register for signal <SO<282>>.
+    Found 6-bit register for signal <SO<283>>.
+    Found 6-bit register for signal <SO<284>>.
+    Found 6-bit register for signal <SO<285>>.
+    Found 6-bit register for signal <SO<286>>.
+    Found 6-bit register for signal <SO<287>>.
+    Found 6-bit register for signal <SO<288>>.
+    Found 6-bit register for signal <SO<289>>.
+    Found 6-bit register for signal <SO<290>>.
+    Found 6-bit register for signal <SO<291>>.
+    Found 6-bit register for signal <SO<292>>.
+    Found 6-bit register for signal <SO<293>>.
+    Found 6-bit register for signal <SO<294>>.
+    Found 6-bit register for signal <SO<295>>.
+    Found 6-bit register for signal <SO<296>>.
+    Found 6-bit register for signal <SO<297>>.
+    Found 6-bit register for signal <SO<298>>.
+    Found 6-bit register for signal <SO<299>>.
+    Found 6-bit register for signal <SO<300>>.
+    Found 6-bit register for signal <SO<301>>.
+    Found 6-bit register for signal <SO<302>>.
+    Found 6-bit register for signal <SO<303>>.
+    Found 6-bit register for signal <SO<304>>.
+    Found 6-bit register for signal <SO<305>>.
+    Found 6-bit register for signal <SO<306>>.
+    Found 6-bit register for signal <SO<307>>.
+    Found 6-bit register for signal <SO<308>>.
+    Found 6-bit register for signal <SO<309>>.
+    Found 6-bit register for signal <SO<310>>.
+    Found 6-bit register for signal <SO<311>>.
+    Found 6-bit register for signal <SO<312>>.
+    Found 6-bit register for signal <SO<313>>.
+    Found 6-bit register for signal <SO<314>>.
+    Found 6-bit register for signal <SO<315>>.
+    Found 6-bit register for signal <SO<316>>.
+    Found 6-bit register for signal <SO<317>>.
+    Found 6-bit register for signal <SO<318>>.
+    Found 6-bit register for signal <SO<319>>.
+    Found 6-bit register for signal <SO<320>>.
+    Found 6-bit register for signal <SO<321>>.
+    Found 6-bit register for signal <SO<322>>.
+    Found 6-bit register for signal <SO<323>>.
+    Found 6-bit register for signal <SO<324>>.
+    Found 6-bit register for signal <SO<325>>.
+    Found 6-bit register for signal <SO<326>>.
+    Found 6-bit register for signal <SO<327>>.
+    Found 6-bit register for signal <SO<328>>.
+    Found 6-bit register for signal <SO<329>>.
+    Found 6-bit register for signal <SO<330>>.
+    Found 6-bit register for signal <SO<331>>.
+    Found 6-bit register for signal <SO<332>>.
+    Found 6-bit register for signal <SO<333>>.
+    Found 6-bit register for signal <SO<334>>.
+    Found 6-bit register for signal <SO<335>>.
+    Found 6-bit register for signal <SO<336>>.
+    Found 6-bit register for signal <SO<337>>.
+    Found 6-bit register for signal <SO<338>>.
+    Found 6-bit register for signal <SO<339>>.
+    Found 6-bit register for signal <SO<340>>.
+    Found 6-bit register for signal <SO<341>>.
+    Found 6-bit register for signal <SO<342>>.
+    Found 6-bit register for signal <SO<343>>.
+    Found 6-bit register for signal <SO<344>>.
+    Found 6-bit register for signal <SO<345>>.
+    Found 6-bit register for signal <SO<346>>.
+    Found 6-bit register for signal <SO<347>>.
+    Found 6-bit register for signal <SO<348>>.
+    Found 6-bit register for signal <SO<349>>.
+    Found 6-bit register for signal <SO<350>>.
+    Found 6-bit register for signal <SO<351>>.
+    Found 6-bit register for signal <SO<352>>.
+    Found 6-bit register for signal <SO<353>>.
+    Found 6-bit register for signal <SO<354>>.
+    Found 6-bit register for signal <SO<355>>.
+    Found 6-bit register for signal <SO<356>>.
+    Found 6-bit register for signal <SO<357>>.
+    Found 6-bit register for signal <SO<358>>.
+    Found 6-bit register for signal <SO<359>>.
+    Found 6-bit register for signal <SO<360>>.
+    Found 6-bit register for signal <SO<361>>.
+    Found 6-bit register for signal <SO<362>>.
+    Found 6-bit register for signal <SO<363>>.
+    Found 6-bit register for signal <SO<364>>.
+    Found 6-bit register for signal <SO<365>>.
+    Found 6-bit register for signal <SO<366>>.
+    Found 6-bit register for signal <SO<367>>.
+    Found 6-bit register for signal <SO<368>>.
+    Found 6-bit register for signal <SO<369>>.
+    Found 6-bit register for signal <SO<370>>.
+    Found 6-bit register for signal <SO<371>>.
+    Found 6-bit register for signal <SO<372>>.
+    Found 6-bit register for signal <SO<373>>.
+    Found 6-bit register for signal <SO<374>>.
+    Found 6-bit register for signal <SO<375>>.
+    Found 6-bit register for signal <SO<376>>.
+    Found 6-bit register for signal <SO<377>>.
+    Found 6-bit register for signal <SO<378>>.
+    Found 6-bit register for signal <SO<379>>.
+    Found 6-bit register for signal <SO<380>>.
+    Found 6-bit register for signal <SO<381>>.
+    Found 6-bit register for signal <SO<382>>.
+    Found 6-bit register for signal <SO<383>>.
+    Found 6-bit register for signal <SO<384>>.
+    Found 6-bit register for signal <SO<385>>.
+    Found 6-bit register for signal <SO<386>>.
+    Found 6-bit register for signal <SO<387>>.
+    Found 6-bit register for signal <SO<388>>.
+    Found 6-bit register for signal <SO<389>>.
+    Found 6-bit register for signal <SO<390>>.
+    Found 6-bit register for signal <SO<391>>.
+    Found 6-bit register for signal <SO<392>>.
+    Found 6-bit register for signal <SO<393>>.
+    Found 6-bit register for signal <SO<394>>.
+    Found 6-bit register for signal <SO<395>>.
+    Found 6-bit register for signal <SO<396>>.
+    Found 6-bit register for signal <SO<397>>.
+    Found 6-bit register for signal <SO<398>>.
+    Found 6-bit register for signal <SO<399>>.
+    Found 6-bit register for signal <SO<400>>.
+    Found 6-bit register for signal <SO<401>>.
+    Found 6-bit register for signal <SO<402>>.
+    Found 6-bit register for signal <SO<403>>.
+    Found 6-bit register for signal <SO<404>>.
+    Found 6-bit register for signal <SO<405>>.
+    Found 6-bit register for signal <SO<406>>.
+    Found 6-bit register for signal <SO<407>>.
+    Found 6-bit register for signal <SO<408>>.
+    Found 6-bit register for signal <SO<409>>.
+    Found 6-bit register for signal <SO<410>>.
+    Found 6-bit register for signal <SO<411>>.
+    Found 6-bit register for signal <SO<412>>.
+    Found 6-bit register for signal <SO<413>>.
+    Found 6-bit register for signal <SO<414>>.
+    Found 6-bit register for signal <SO<415>>.
+    Found 6-bit register for signal <SO<416>>.
+    Found 6-bit register for signal <SO<417>>.
+    Found 6-bit register for signal <SO<418>>.
+    Found 6-bit register for signal <SO<419>>.
+    Found 6-bit register for signal <SO<420>>.
+    Found 6-bit register for signal <SO<421>>.
+    Found 6-bit register for signal <SO<422>>.
+    Found 6-bit register for signal <SO<423>>.
+    Found 6-bit register for signal <SO<424>>.
+    Found 6-bit register for signal <SO<425>>.
+    Found 6-bit register for signal <SO<426>>.
+    Found 6-bit register for signal <SO<427>>.
+    Found 6-bit register for signal <SO<428>>.
+    Found 6-bit register for signal <SO<429>>.
+    Found 6-bit register for signal <SO<430>>.
+    Found 6-bit register for signal <SO<431>>.
+    Found 6-bit register for signal <SO<432>>.
+    Found 6-bit register for signal <SO<433>>.
+    Found 6-bit register for signal <SO<434>>.
+    Found 6-bit register for signal <SO<435>>.
+    Found 6-bit register for signal <SO<436>>.
+    Found 6-bit register for signal <SO<437>>.
+    Found 6-bit register for signal <SO<438>>.
+    Found 6-bit register for signal <SO<439>>.
+    Found 6-bit register for signal <SO<440>>.
+    Found 6-bit register for signal <SO<441>>.
+    Found 6-bit register for signal <SO<442>>.
+    Found 6-bit register for signal <SO<443>>.
+    Found 6-bit register for signal <SO<444>>.
+    Found 6-bit register for signal <SO<445>>.
+    Found 6-bit register for signal <SO<446>>.
+    Found 6-bit register for signal <SO<447>>.
+    Found 6-bit register for signal <SO<448>>.
+    Found 6-bit register for signal <SO<449>>.
+    Found 6-bit register for signal <SO<450>>.
+    Found 6-bit register for signal <SO<451>>.
+    Found 6-bit register for signal <SO<452>>.
+    Found 6-bit register for signal <SO<453>>.
+    Found 6-bit register for signal <SO<454>>.
+    Found 6-bit register for signal <SO<455>>.
+    Found 6-bit register for signal <SO<456>>.
+    Found 6-bit register for signal <SO<457>>.
+    Found 6-bit register for signal <SO<458>>.
+    Found 6-bit register for signal <SO<459>>.
+    Found 6-bit register for signal <SO<460>>.
+    Found 6-bit register for signal <SO<461>>.
+    Found 6-bit register for signal <SO<462>>.
+    Found 6-bit register for signal <SO<463>>.
+    Found 6-bit register for signal <SO<464>>.
+    Found 6-bit register for signal <SO<465>>.
+    Found 6-bit register for signal <SO<466>>.
+    Found 6-bit register for signal <SO<467>>.
+    Found 6-bit register for signal <SO<468>>.
+    Found 6-bit register for signal <SO<469>>.
+    Found 6-bit register for signal <SO<470>>.
+    Found 6-bit register for signal <SO<471>>.
+    Found 6-bit register for signal <SO<472>>.
+    Found 6-bit register for signal <SO<473>>.
+    Found 6-bit register for signal <SO<474>>.
+    Found 6-bit register for signal <SO<475>>.
+    Found 6-bit register for signal <SO<476>>.
+    Found 6-bit register for signal <SO<477>>.
+    Found 6-bit register for signal <SO<478>>.
+    Found 6-bit register for signal <SO<479>>.
+    Found 6-bit register for signal <SO<480>>.
+    Found 6-bit register for signal <SO<481>>.
+    Found 6-bit register for signal <SO<482>>.
+    Found 6-bit register for signal <SO<483>>.
+    Found 6-bit register for signal <SO<484>>.
+    Found 6-bit register for signal <SO<485>>.
+    Found 6-bit register for signal <SO<486>>.
+    Found 6-bit register for signal <SO<487>>.
+    Found 6-bit register for signal <SO<488>>.
+    Found 6-bit register for signal <SO<489>>.
+    Found 6-bit register for signal <SO<490>>.
+    Found 6-bit register for signal <SO<491>>.
+    Found 6-bit register for signal <SO<492>>.
+    Found 6-bit register for signal <SO<493>>.
+    Found 6-bit register for signal <SO<494>>.
+    Found 6-bit register for signal <SO<495>>.
+    Found 6-bit register for signal <SO<496>>.
+    Found 6-bit register for signal <SO<497>>.
+    Found 6-bit register for signal <SO<498>>.
+    Found 6-bit register for signal <SO<499>>.
+    Found 6-bit register for signal <SO<500>>.
+    Found 6-bit register for signal <SO<501>>.
+    Found 6-bit register for signal <SO<502>>.
+    Found 6-bit register for signal <SO<503>>.
+    Found 6-bit register for signal <SO<504>>.
+    Found 6-bit register for signal <SO<505>>.
+    Found 6-bit register for signal <SO<506>>.
+    Found 6-bit register for signal <SO<507>>.
+    Found 6-bit register for signal <SO<508>>.
+    Found 6-bit register for signal <SO<509>>.
+    Found 6-bit register for signal <SO<510>>.
+    Found 6-bit register for signal <SO<511>>.
+    Found 6-bit register for signal <SO<512>>.
+    Found 6-bit register for signal <SO<513>>.
+    Found 6-bit register for signal <SO<514>>.
+    Found 6-bit register for signal <SO<515>>.
+    Found 6-bit register for signal <SO<516>>.
+    Found 6-bit register for signal <SO<517>>.
+    Found 6-bit register for signal <SO<518>>.
+    Found 6-bit register for signal <SO<519>>.
+    Found 6-bit register for signal <SO<520>>.
+    Found 6-bit register for signal <SO<521>>.
+    Found 6-bit register for signal <SO<522>>.
+    Found 6-bit register for signal <SO<523>>.
+    Found 6-bit register for signal <SO<524>>.
+    Found 6-bit register for signal <SO<525>>.
+    Found 6-bit register for signal <SO<526>>.
+    Found 6-bit register for signal <SO<527>>.
+    Found 6-bit register for signal <SO<528>>.
+    Found 6-bit register for signal <SO<529>>.
+    Found 6-bit register for signal <SO<530>>.
+    Found 6-bit register for signal <SO<531>>.
+    Found 6-bit register for signal <SO<532>>.
+    Found 6-bit register for signal <SO<533>>.
+    Found 6-bit register for signal <SO<534>>.
+    Found 6-bit register for signal <SO<535>>.
+    Found 6-bit register for signal <SO<536>>.
+    Found 6-bit register for signal <SO<537>>.
+    Found 6-bit register for signal <SO<538>>.
+    Found 6-bit register for signal <SO<539>>.
+    Found 6-bit register for signal <SO<540>>.
+    Found 6-bit register for signal <SO<541>>.
+    Found 6-bit register for signal <SO<542>>.
+    Found 6-bit register for signal <SO<543>>.
+    Found 6-bit register for signal <SO<544>>.
+    Found 6-bit register for signal <SO<545>>.
+    Found 6-bit register for signal <SO<546>>.
+    Found 6-bit register for signal <SO<547>>.
+    Found 6-bit register for signal <SO<548>>.
+    Found 6-bit register for signal <SO<549>>.
+    Found 6-bit register for signal <SO<550>>.
+    Found 6-bit register for signal <SO<551>>.
+    Found 6-bit register for signal <SO<552>>.
+    Found 6-bit register for signal <SO<553>>.
+    Found 6-bit register for signal <SO<554>>.
+    Found 6-bit register for signal <SO<555>>.
+    Found 6-bit register for signal <SO<556>>.
+    Found 6-bit register for signal <SO<557>>.
+    Found 6-bit register for signal <SO<558>>.
+    Found 6-bit register for signal <SO<559>>.
+    Found 6-bit register for signal <SO<560>>.
+    Found 6-bit register for signal <SO<561>>.
+    Found 6-bit register for signal <SO<562>>.
+    Found 6-bit register for signal <SO<563>>.
+    Found 6-bit register for signal <SO<564>>.
+    Found 6-bit register for signal <SO<565>>.
+    Found 6-bit register for signal <SO<566>>.
+    Found 6-bit register for signal <SO<567>>.
+    Found 6-bit register for signal <SO<568>>.
+    Found 6-bit register for signal <SO<569>>.
+    Found 6-bit register for signal <SO<570>>.
+    Found 6-bit register for signal <SO<571>>.
+    Found 6-bit register for signal <SO<572>>.
+    Found 6-bit register for signal <SO<573>>.
+    Found 6-bit register for signal <SO<574>>.
+    Found 6-bit register for signal <SO<575>>.
+    Found 6-bit register for signal <SO<576>>.
+    Found 6-bit register for signal <SO<577>>.
+    Found 6-bit register for signal <SO<578>>.
+    Found 6-bit register for signal <SO<579>>.
+    Found 6-bit register for signal <SO<580>>.
+    Found 6-bit register for signal <SO<581>>.
+    Found 6-bit register for signal <SO<582>>.
+    Found 6-bit register for signal <SO<583>>.
+    Found 6-bit register for signal <SO<584>>.
+    Found 6-bit register for signal <SO<585>>.
+    Found 6-bit register for signal <SO<586>>.
+    Found 6-bit register for signal <SO<587>>.
+    Found 6-bit register for signal <SO<588>>.
+    Found 6-bit register for signal <SO<589>>.
+    Found 6-bit register for signal <SO<590>>.
+    Found 6-bit register for signal <SO<591>>.
+    Found 6-bit register for signal <SO<592>>.
+    Found 6-bit register for signal <SO<593>>.
+    Found 6-bit register for signal <SO<594>>.
+    Found 6-bit register for signal <SO<595>>.
+    Found 6-bit register for signal <SO<596>>.
+    Found 6-bit register for signal <SO<597>>.
+    Found 6-bit register for signal <SO<598>>.
+    Found 6-bit register for signal <SO<599>>.
+    Found 6-bit register for signal <SO<600>>.
+    Found 6-bit register for signal <SO<601>>.
+    Found 6-bit register for signal <SO<602>>.
+    Found 6-bit register for signal <SO<603>>.
+    Found 6-bit register for signal <SO<604>>.
+    Found 6-bit register for signal <SO<605>>.
+    Found 6-bit register for signal <SO<606>>.
+    Found 6-bit register for signal <SO<607>>.
+    Found 6-bit register for signal <SO<608>>.
+    Found 6-bit register for signal <SO<609>>.
+    Found 6-bit register for signal <SO<610>>.
+    Found 6-bit register for signal <SO<611>>.
+    Found 6-bit register for signal <SO<612>>.
+    Found 6-bit register for signal <SO<613>>.
+    Found 6-bit register for signal <SO<614>>.
+    Found 6-bit register for signal <SO<615>>.
+    Found 6-bit register for signal <SO<616>>.
+    Found 6-bit register for signal <SO<617>>.
+    Found 6-bit register for signal <SO<618>>.
+    Found 6-bit register for signal <SO<619>>.
+    Found 6-bit register for signal <SO<620>>.
+    Found 6-bit register for signal <SO<621>>.
+    Found 6-bit register for signal <SO<622>>.
+    Found 6-bit register for signal <SO<623>>.
+    Found 6-bit register for signal <SO<624>>.
+    Found 6-bit register for signal <SO<625>>.
+    Found 6-bit register for signal <SO<626>>.
+    Found 6-bit register for signal <SO<627>>.
+    Found 6-bit register for signal <SO<628>>.
+    Found 6-bit register for signal <SO<629>>.
+    Found 6-bit register for signal <SO<630>>.
+    Found 6-bit register for signal <SO<631>>.
+    Found 6-bit register for signal <SO<632>>.
+    Found 6-bit register for signal <SO<633>>.
+    Found 6-bit register for signal <SO<634>>.
+    Found 6-bit register for signal <SO<635>>.
+    Found 6-bit register for signal <SO<636>>.
+    Found 6-bit register for signal <SO<637>>.
+    Found 6-bit register for signal <SO<638>>.
+    Found 6-bit register for signal <SO<639>>.
+    Found 6-bit register for signal <SO<640>>.
+    Found 6-bit register for signal <SO<641>>.
+    Found 6-bit register for signal <SO<642>>.
+    Found 6-bit register for signal <SO<643>>.
+    Found 6-bit register for signal <SO<644>>.
+    Found 6-bit register for signal <SO<645>>.
+    Found 6-bit register for signal <SO<646>>.
+    Found 6-bit register for signal <SO<647>>.
+    Found 6-bit register for signal <t1>.
+    Found 6-bit register for signal <t2>.
+    Found 9-bit register for signal <in_times>.
+    Found 9-bit adder for signal <in_times[8]_GND_5_o_add_0_OUT> created at line 32.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred 3910 D-type flip-flop(s).
+Unit <shift_registers_sipo> synthesized.
+
+Synthesizing Unit <div_6s_6s>.
+    Related source file is "".
+    Found 6-bit subtractor for signal <a[5]_unary_minus_1_OUT> created at line 0.
+    Found 6-bit subtractor for signal <b[5]_unary_minus_3_OUT> created at line 0.
+    Found 12-bit adder for signal <n0212> created at line 0.
+    Found 12-bit adder for signal <GND_6_o_b[5]_add_5_OUT> created at line 0.
+    Found 11-bit adder for signal <n0216> created at line 0.
+    Found 11-bit adder for signal <GND_6_o_b[5]_add_7_OUT> created at line 0.
+    Found 10-bit adder for signal <n0220> created at line 0.
+    Found 10-bit adder for signal <GND_6_o_b[5]_add_9_OUT> created at line 0.
+    Found 9-bit adder for signal <n0224> created at line 0.
+    Found 9-bit adder for signal <GND_6_o_b[5]_add_11_OUT> created at line 0.
+    Found 8-bit adder for signal <n0228> created at line 0.
+    Found 8-bit adder for signal <GND_6_o_b[5]_add_13_OUT> created at line 0.
+    Found 7-bit adder for signal <n0232> created at line 0.
+    Found 7-bit adder for signal <GND_6_o_b[5]_add_15_OUT> created at line 0.
+    Found 7-bit adder for signal <GND_6_o_BUS_0001_add_18_OUT[6:0]> created at line 0.
+    Found 12-bit comparator greater for signal <BUS_0001_INV_84_o> created at line 0
+    Found 11-bit comparator greater for signal <BUS_0002_INV_83_o> created at line 0
+    Found 10-bit comparator greater for signal <BUS_0003_INV_82_o> created at line 0
+    Found 9-bit comparator greater for signal <BUS_0004_INV_81_o> created at line 0
+    Found 8-bit comparator greater for signal <BUS_0005_INV_80_o> created at line 0
+    Found 7-bit comparator greater for signal <BUS_0006_INV_79_o> created at line 0
+    Found 6-bit comparator greater for signal <BUS_0007_INV_78_o> created at line 0
+    Summary:
+	inferred  15 Adder/Subtractor(s).
+	inferred   7 Comparator(s).
+	inferred  34 Multiplexer(s).
+Unit <div_6s_6s> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 31
+ 10-bit adder                                          : 4
+ 11-bit adder                                          : 4
+ 12-bit adder                                          : 4
+ 6-bit subtractor                                      : 4
+ 7-bit adder                                           : 6
+ 8-bit adder                                           : 4
+ 9-bit adder                                           : 5
+# Registers                                            : 652
+ 1-bit register                                        : 1
+ 6-bit register                                        : 650
+ 9-bit register                                        : 1
+# Comparators                                          : 14
+ 10-bit comparator greater                             : 2
+ 11-bit comparator greater                             : 2
+ 12-bit comparator greater                             : 2
+ 6-bit comparator greater                              : 2
+ 7-bit comparator greater                              : 2
+ 8-bit comparator greater                              : 2
+ 9-bit comparator greater                              : 2
+# Multiplexers                                         : 68
+ 1-bit 2-to-1 multiplexer                              : 60
+ 6-bit 2-to-1 multiplexer                              : 6
+ 7-bit 2-to-1 multiplexer                              : 2
+# Xors                                                 : 2
+ 1-bit xor2                                            : 2
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+WARNING:Xst:1710 - FF/Latch <t1_0> (without init value) has a constant value of 0 in block <shift_registers_sipo>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <t2_0> (without init value) has a constant value of 0 in block <shift_registers_sipo>. This FF/Latch will be trimmed during the optimization process.
+
+Synthesizing (advanced) Unit <shift_registers_sipo>.
+The following registers are absorbed into counter <in_times>: 1 register on signal <in_times>.
+Unit <shift_registers_sipo> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 18
+ 6-bit adder carry in                                  : 12
+ 6-bit subtractor                                      : 4
+ 7-bit adder                                           : 2
+# Counters                                             : 1
+ 9-bit up counter                                      : 1
+# Registers                                            : 3901
+ Flip-Flops                                            : 3901
+# Comparators                                          : 14
+ 10-bit comparator greater                             : 2
+ 11-bit comparator greater                             : 2
+ 12-bit comparator greater                             : 2
+ 6-bit comparator greater                              : 2
+ 7-bit comparator greater                              : 2
+ 8-bit comparator greater                              : 2
+ 9-bit comparator greater                              : 2
+# Multiplexers                                         : 68
+ 1-bit 2-to-1 multiplexer                              : 60
+ 6-bit 2-to-1 multiplexer                              : 6
+ 7-bit 2-to-1 multiplexer                              : 2
+# Xors                                                 : 2
+ 1-bit xor2                                            : 2
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1710 - FF/Latch <t2_0> (without init value) has a constant value of 0 in block <shift_registers_sipo>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <t1_0> (without init value) has a constant value of 0 in block <shift_registers_sipo>. This FF/Latch will be trimmed during the optimization process.
+
+Optimizing unit <shift_registers_sipo> ...
+
+Optimizing unit <div_6s_6s> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block shift_registers_sipo, actual ratio is 3.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 3908
+ Flip-Flops                                            : 3908
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : shift_registers_sipo.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 229
+#      GND                         : 1
+#      INV                         : 1
+#      LUT1                        : 8
+#      LUT2                        : 4
+#      LUT3                        : 12
+#      LUT4                        : 18
+#      LUT5                        : 38
+#      LUT6                        : 125
+#      MUXCY                       : 8
+#      MUXF7                       : 4
+#      VCC                         : 1
+#      XORCY                       : 9
+# FlipFlops/Latches                : 3908
+#      FD                          : 3899
+#      FDR                         : 9
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 3906
+#      IBUF                        : 17
+#      OBUF                        : 3889
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6vlx240tff1156-1 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:            3908  out of  301440     1%  
+ Number of Slice LUTs:                  206  out of  150720     0%  
+    Number used as Logic:               206  out of  150720     0%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:   4104
+   Number with an unused Flip Flop:     196  out of   4104     4%  
+   Number with an unused LUT:          3898  out of   4104    94%  
+   Number of fully used LUT-FF pairs:    10  out of   4104     0%  
+   Number of unique control sets:         2
+
+IO Utilization: 
+ Number of IOs:                        3909
+ Number of bonded IOBs:                3907  out of    600   651% (*) 
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                1  out of     32     3%  
+
+WARNING:Xst:1336 -  (*) More than 100% of Device resources are used
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CLK                                | BUFGP                  | 3908  |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -1
+
+   Minimum period: 6.569ns (Maximum Frequency: 152.230MHz)
+   Minimum input arrival time before clock: 7.502ns
+   Maximum output required time after clock: 0.791ns
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CLK'
+  Clock period: 6.569ns (frequency: 152.230MHz)
+  Total number of paths / destination ports: 121180 / 3898
+-------------------------------------------------------------------------
+Delay:               6.569ns (Levels of Logic = 11)
+  Source:            t2_4 (FF)
+  Destination:       tmp_647_3 (FF)
+  Source Clock:      CLK rising
+  Destination Clock: CLK rising
+
+  Data Path: t2_4 to tmp_647_3
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               4   0.375   0.795  t2_4 (t2_4)
+     begin scope: 't2[5]_nv[5]_div_7:a<4>'
+     LUT5:I0->O            5   0.068   0.518  Mmux_a[5]_a[5]_mux_1_OUT51 (a[5]_a[5]_mux_1_OUT<4>)
+     LUT6:I4->O            5   0.068   0.444  BUS_0004_INV_81_o1_SW0 (N4)
+     LUT5:I4->O           11   0.068   0.465  BUS_0004_INV_81_o1 (Madd_GND_6_o_BUS_0001_add_18_OUT[6:0]_lut<3>)
+     MUXF7:S->O            6   0.267   0.450  Mmux_a[5]_GND_6_o_MUX_100_o131 (a[5]_GND_6_o_MUX_97_o)
+     LUT6:I5->O            2   0.068   0.497  BUS_0005_INV_80_o1_SW9 (N63)
+     LUT6:I4->O            4   0.068   0.601  Madd_GND_6_o_b[5]_add_15_OUT_Madd_Madd_lut<2>1 (Madd_GND_6_o_b[5]_add_15_OUT_Madd_Madd_lut<2>)
+     LUT6:I3->O            2   0.068   0.423  Madd_GND_6_o_b[5]_add_15_OUT_Madd_Madd_cy<3>11 (Madd_GND_6_o_b[5]_add_15_OUT_Madd_Madd_cy<3>)
+     LUT4:I3->O            2   0.068   0.497  Mmux_n020551 (n0205<4>)
+     LUT5:I3->O            6   0.068   0.614  BUS_0007_INV_78_o12 (BUS_0007_INV_78_o12)
+     LUT6:I3->O            1   0.068   0.000  Mmux_o41 (o<3>)
+     end scope: 't2[5]_nv[5]_div_7:o<3>'
+     FD:D                      0.011          tmp_647_3
+    ----------------------------------------
+    Total                      6.569ns (1.265ns logic, 5.304ns route)
+                                       (19.3% logic, 80.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'CLK'
+  Total number of paths / destination ports: 243583 / 31
+-------------------------------------------------------------------------
+Offset:              7.502ns (Levels of Logic = 13)
+  Source:            nv<3> (PAD)
+  Destination:       tmp_647_3 (FF)
+  Destination Clock: CLK rising
+
+  Data Path: nv<3> to tmp_647_3
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            18   0.003   0.887  nv_3_IBUF (nv_3_IBUF)
+     begin scope: 't2[5]_nv[5]_div_7:b<3>'
+     LUT5:I0->O            5   0.068   0.805  BUS_0003_INV_82_o1_SW0 (N2)
+     LUT6:I0->O            1   0.068   0.778  Mmux_a[5]_GND_6_o_MUX_78_o11_SW0 (N27)
+     LUT6:I0->O            6   0.068   0.524  Mmux_a[5]_GND_6_o_MUX_78_o11 (a[5]_GND_6_o_MUX_78_o)
+     LUT5:I3->O           11   0.068   0.465  BUS_0004_INV_81_o1 (Madd_GND_6_o_BUS_0001_add_18_OUT[6:0]_lut<3>)
+     MUXF7:S->O            6   0.267   0.450  Mmux_a[5]_GND_6_o_MUX_100_o131 (a[5]_GND_6_o_MUX_97_o)
+     LUT6:I5->O            2   0.068   0.497  BUS_0005_INV_80_o1_SW9 (N63)
+     LUT6:I4->O            4   0.068   0.601  Madd_GND_6_o_b[5]_add_15_OUT_Madd_Madd_lut<2>1 (Madd_GND_6_o_b[5]_add_15_OUT_Madd_Madd_lut<2>)
+     LUT6:I3->O            2   0.068   0.423  Madd_GND_6_o_b[5]_add_15_OUT_Madd_Madd_cy<3>11 (Madd_GND_6_o_b[5]_add_15_OUT_Madd_Madd_cy<3>)
+     LUT4:I3->O            2   0.068   0.497  Mmux_n020551 (n0205<4>)
+     LUT5:I3->O            6   0.068   0.614  BUS_0007_INV_78_o12 (BUS_0007_INV_78_o12)
+     LUT6:I3->O            1   0.068   0.000  Mmux_o41 (o<3>)
+     end scope: 't2[5]_nv[5]_div_7:o<3>'
+     FD:D                      0.011          tmp_647_3
+    ----------------------------------------
+    Total                      7.502ns (0.961ns logic, 6.541ns route)
+                                       (12.8% logic, 87.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'CLK'
+  Total number of paths / destination ports: 3889 / 3889
+-------------------------------------------------------------------------
+Offset:              0.791ns (Levels of Logic = 1)
+  Source:            complete (FF)
+  Destination:       complete (PAD)
+  Source Clock:      CLK rising
+
+  Data Path: complete to complete
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               3   0.375   0.413  complete (complete_OBUF)
+     OBUF:I->O                 0.003          complete_OBUF (complete)
+    ----------------------------------------
+    Total                      0.791ns (0.378ns logic, 0.413ns route)
+                                       (47.8% logic, 52.2% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock CLK
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+CLK            |    6.569|         |         |         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 13.00 secs
+Total CPU time to Xst completion: 12.82 secs
+ 
+--> 
+
+
+Total memory usage is 426944 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    5 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

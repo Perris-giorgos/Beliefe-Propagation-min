@@ -1,0 +1,411 @@
+Release 14.3 - xst P.40xd (lin64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.05 secs
+ 
+--> 
+Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.05 secs
+ 
+--> 
+Reading design: check_node_process.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "check_node_process.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "check_node_process"
+Output Format                      : NGC
+Target Device                      : xc6vlx240t-1-ff1156
+
+---- Source Options
+Top Module Name                    : check_node_process
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 32
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+---- Other Options
+Cores Search Directories           : {"../../belief_propagation"  }
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "/home/peraxor/MEGAsync/27-7/VHDL/belief_propagation/my_types_pkg.vhd" into library work
+Parsing package <my_types_pkg>.
+Parsing package body <my_types_pkg>.
+Parsing VHDL file "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/newtry/registerN.vhd" into library work
+Parsing entity <registerN>.
+Parsing architecture <Behavioral> of entity <registern>.
+Parsing VHDL file "/home/peraxor/MEGAsync/27-7/VHDL/belief_propagation/check_node_process.vhd" into library work
+Parsing entity <check_node_process>.
+Parsing architecture <Behavioral> of entity <check_node_process>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <check_node_process> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <registerN> (architecture <Behavioral>) from library <work>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <check_node_process>.
+    Related source file is "/home/peraxor/MEGAsync/27-7/VHDL/belief_propagation/check_node_process.vhd".
+WARNING:Xst:647 - Input <b2c_c<4:0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found 6-bit register for signal <L>.
+    Found 6-bit register for signal <M>.
+    Found 6-bit adder for signal <M[5]_GND_5_o_add_12_OUT> created at line 1253.
+    Found 3-bit comparator equal for signal <pos_1[2]_var_pos[2]_equal_1_o> created at line 46
+    Found 3-bit comparator equal for signal <pos_2[2]_var_pos[2]_equal_3_o> created at line 48
+    Found 3-bit comparator equal for signal <pos_3[2]_var_pos[2]_equal_5_o> created at line 50
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  12 D-type flip-flop(s).
+	inferred   3 Comparator(s).
+	inferred   4 Multiplexer(s).
+Unit <check_node_process> synthesized.
+
+Synthesizing Unit <registerN>.
+    Related source file is "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/newtry/registerN.vhd".
+    Found 6-bit register for signal <q>.
+    Summary:
+	inferred   6 D-type flip-flop(s).
+Unit <registerN> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 1
+ 6-bit adder                                           : 1
+# Registers                                            : 3
+ 6-bit register                                        : 3
+# Comparators                                          : 3
+ 3-bit comparator equal                                : 3
+# Multiplexers                                         : 4
+ 6-bit 2-to-1 multiplexer                              : 4
+# Xors                                                 : 5
+ 1-bit xor2                                            : 1
+ 6-bit xor2                                            : 4
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 1
+ 6-bit adder                                           : 1
+# Registers                                            : 18
+ Flip-Flops                                            : 18
+# Comparators                                          : 3
+ 3-bit comparator equal                                : 3
+# Multiplexers                                         : 9
+ 1-bit 2-to-1 multiplexer                              : 6
+ 6-bit 2-to-1 multiplexer                              : 3
+# Xors                                                 : 5
+ 1-bit xor2                                            : 1
+ 6-bit xor2                                            : 4
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <check_node_process> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block check_node_process, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 18
+ Flip-Flops                                            : 18
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : check_node_process.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 16
+#      LUT2                        : 1
+#      LUT4                        : 2
+#      LUT5                        : 2
+#      LUT6                        : 11
+# FlipFlops/Latches                : 18
+#      FD                          : 12
+#      FDRE                        : 6
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 40
+#      IBUF                        : 34
+#      OBUF                        : 6
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6vlx240tff1156-1 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:              18  out of  301440     0%  
+ Number of Slice LUTs:                   16  out of  150720     0%  
+    Number used as Logic:                16  out of  150720     0%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:     21
+   Number with an unused Flip Flop:       3  out of     21    14%  
+   Number with an unused LUT:             5  out of     21    23%  
+   Number of fully used LUT-FF pairs:    13  out of     21    61%  
+   Number of unique control sets:         2
+
+IO Utilization: 
+ Number of IOs:                          46
+ Number of bonded IOBs:                  41  out of    600     6%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                1  out of     32     3%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 18    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -1
+
+   Minimum period: 1.591ns (Maximum Frequency: 628.535MHz)
+   Minimum input arrival time before clock: 1.610ns
+   Maximum output required time after clock: 0.777ns
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 1.591ns (frequency: 628.535MHz)
+  Total number of paths / destination ports: 27 / 12
+-------------------------------------------------------------------------
+Delay:               1.591ns (Levels of Logic = 2)
+  Source:            M_3 (FF)
+  Destination:       L_5 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: M_3 to L_5
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               3   0.375   0.652  M_3 (M_3)
+     LUT4:I0->O            1   0.068   0.417  Madd_M[5]_GND_5_o_add_12_OUT_cy<3>11 (Madd_M[5]_GND_5_o_add_12_OUT_cy<3>)
+     LUT5:I4->O            1   0.068   0.000  mux511 (M[5]_M[5]_mux_13_OUT<5>)
+     FD:D                      0.011          L_5
+    ----------------------------------------
+    Total                      1.591ns (0.522ns logic, 1.069ns route)
+                                       (32.8% logic, 67.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 148 / 23
+-------------------------------------------------------------------------
+Offset:              1.610ns (Levels of Logic = 3)
+  Source:            var_pos<0> (PAD)
+  Destination:       M_0 (FF)
+  Destination Clock: clk rising
+
+  Data Path: var_pos<0> to M_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             3   0.003   0.789  var_pos_0_IBUF (var_pos_0_IBUF)
+     LUT6:I1->O            6   0.068   0.671  pos_2[2]_var_pos[2]_equal_3_o31 (pos_2[2]_var_pos[2]_equal_3_o)
+     LUT6:I2->O            1   0.068   0.000  Mmux_min_1[5]_min_2[5]_mux_10_OUT11 (min_1[5]_min_2[5]_mux_10_OUT<0>)
+     FD:D                      0.011          M_0
+    ----------------------------------------
+    Total                      1.610ns (0.150ns logic, 1.460ns route)
+                                       (9.3% logic, 90.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 6 / 6
+-------------------------------------------------------------------------
+Offset:              0.777ns (Levels of Logic = 1)
+  Source:            s0/q_5 (FF)
+  Destination:       c2b<5> (PAD)
+  Source Clock:      clk rising
+
+  Data Path: s0/q_5 to c2b<5>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRE:C->Q             1   0.375   0.399  s0/q_5 (s0/q_5)
+     OBUF:I->O                 0.003          c2b_5_OBUF (c2b<5>)
+    ----------------------------------------
+    Total                      0.777ns (0.378ns logic, 0.399ns route)
+                                       (48.6% logic, 51.4% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |    1.591|         |         |         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 6.00 secs
+Total CPU time to Xst completion: 5.77 secs
+ 
+--> 
+
+
+Total memory usage is 411396 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

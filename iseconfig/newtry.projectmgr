@@ -1,0 +1,194 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--This is an ISE project configuration file.-->
+<!--It holds project specific layout data for the projectmgr plugin.-->
+<!--Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.-->
+<Project version="2" owner="projectmgr" name="newtry" >
+   <!--This is an ISE project configuration file.-->
+   <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/decoder - Behavioral |home|peraxor|MEGAsync|27-7|VHDL|belief_propagation|decoder.vhd/bitproc0 - BitNodeUpdate - Behavioral</ClosedNode>
+         <ClosedNode>/decoder - Behavioral |home|peraxor|MEGAsync|27-7|VHDL|belief_propagation|decoder.vhd/bitproc1 - BitNodeUpdate - Behavioral</ClosedNode>
+         <ClosedNode>/decoder - Behavioral |home|peraxor|MEGAsync|27-7|VHDL|belief_propagation|decoder.vhd/bitproc2 - BitNodeUpdate - Behavioral</ClosedNode>
+         <ClosedNode>/decoder - Behavioral |home|peraxor|MEGAsync|27-7|VHDL|belief_propagation|decoder.vhd/bitproc3 - BitNodeUpdate - Behavioral</ClosedNode>
+         <ClosedNode>/decoder - Behavioral |home|peraxor|MEGAsync|27-7|VHDL|belief_propagation|decoder.vhd/bitproc4 - BitNodeUpdate - Behavioral</ClosedNode>
+         <ClosedNode>/decoder - Behavioral |home|peraxor|MEGAsync|27-7|VHDL|belief_propagation|decoder.vhd/bitproc5 - BitNodeUpdate - Behavioral</ClosedNode>
+         <ClosedNode>/decoder - Behavioral |home|peraxor|MEGAsync|27-7|VHDL|belief_propagation|decoder.vhd/bitproc6 - BitNodeUpdate - Behavioral</ClosedNode>
+         <ClosedNode>/decoder - Behavioral |home|peraxor|MEGAsync|27-7|VHDL|belief_propagation|decoder.vhd/bitproc7 - BitNodeUpdate - Behavioral</ClosedNode>
+         <ClosedNode>/decoder - Behavioral |home|peraxor|MEGAsync|27-7|VHDL|belief_propagation|decoder.vhd/check_process1 - check_node_process - Behavioral</ClosedNode>
+         <ClosedNode>/decoder - Behavioral |home|peraxor|MEGAsync|27-7|VHDL|belief_propagation|decoder.vhd/check_process2 - check_node_process - Behavioral</ClosedNode>
+         <ClosedNode>/decoder - Behavioral |home|peraxor|MEGAsync|27-7|VHDL|belief_propagation|decoder.vhd/check_process3 - check_node_process - Behavioral</ClosedNode>
+         <ClosedNode>/decoder - Behavioral |home|peraxor|MEGAsync|27-7|VHDL|belief_propagation|decoder.vhd/check_process4 - check_node_process - Behavioral</ClosedNode>
+         <ClosedNode>/decoder - Behavioral |home|peraxor|MEGAsync|27-7|VHDL|belief_propagation|decoder.vhd/check_process5 - check_node_process - Behavioral</ClosedNode>
+         <ClosedNode>/decoder - Behavioral |home|peraxor|MEGAsync|27-7|VHDL|belief_propagation|decoder.vhd/check_process6 - check_node_process - Behavioral</ClosedNode>
+         <ClosedNode>/decoder - Behavioral |home|peraxor|MEGAsync|27-7|VHDL|belief_propagation|decoder.vhd/check_process7 - check_node_process - Behavioral</ClosedNode>
+         <ClosedNode>/decoder - Behavioral |home|peraxor|MEGAsync|27-7|VHDL|belief_propagation|decoder.vhd/give_bit2check - Add_lambda - Behavioral</ClosedNode>
+         <ClosedNode>/decoder - Behavioral |home|peraxor|MEGAsync|27-7|VHDL|belief_propagation|decoder.vhd/minimum3 - minimum_7comp - Behavioral</ClosedNode>
+         <ClosedNode>/decoder - Behavioral |home|peraxor|MEGAsync|27-7|VHDL|belief_propagation|decoder.vhd/outputs - shift_register_piso - archi</ClosedNode>
+         <ClosedNode>/decoder - Behavioral |home|peraxor|MEGAsync|27-7|VHDL|belief_propagation|decoder.vhd/row_proc - row_processor - row_proc</ClosedNode>
+         <ClosedNode>/decoder - Behavioral |home|peraxor|MEGAsync|27-7|VHDL|belief_propagation|decoder.vhd/soft_codeword - lambdas_final - Behavioral</ClosedNode>
+         <ClosedNode>/decoder_box - Behavioral |home|peraxor|MEGAsync|27-7|VHDL|BPmin|newtry|decoder_box.vhd/decode - decoder - Behavioral</ClosedNode>
+         <ClosedNode>/decoder_box - Behavioral |home|peraxor|MEGAsync|27-7|VHDL|BPmin|newtry|decoder_box.vhd/decode - decoder - Behavioral/bitproc0 - BitNodeUpdate - Behavioral</ClosedNode>
+         <ClosedNode>/decoder_box - Behavioral |home|peraxor|MEGAsync|27-7|VHDL|BPmin|newtry|decoder_box.vhd/decode - decoder - Behavioral/bitproc1 - BitNodeUpdate - Behavioral</ClosedNode>
+         <ClosedNode>/decoder_box - Behavioral |home|peraxor|MEGAsync|27-7|VHDL|BPmin|newtry|decoder_box.vhd/decode - decoder - Behavioral/bitproc2 - BitNodeUpdate - Behavioral</ClosedNode>
+         <ClosedNode>/decoder_box - Behavioral |home|peraxor|MEGAsync|27-7|VHDL|BPmin|newtry|decoder_box.vhd/decode - decoder - Behavioral/bitproc3 - BitNodeUpdate - Behavioral</ClosedNode>
+         <ClosedNode>/decoder_box - Behavioral |home|peraxor|MEGAsync|27-7|VHDL|BPmin|newtry|decoder_box.vhd/decode - decoder - Behavioral/bitproc4 - BitNodeUpdate - Behavioral</ClosedNode>
+         <ClosedNode>/decoder_box - Behavioral |home|peraxor|MEGAsync|27-7|VHDL|BPmin|newtry|decoder_box.vhd/decode - decoder - Behavioral/bitproc5 - BitNodeUpdate - Behavioral</ClosedNode>
+         <ClosedNode>/decoder_box - Behavioral |home|peraxor|MEGAsync|27-7|VHDL|BPmin|newtry|decoder_box.vhd/decode - decoder - Behavioral/bitproc6 - BitNodeUpdate - Behavioral</ClosedNode>
+         <ClosedNode>/decoder_box - Behavioral |home|peraxor|MEGAsync|27-7|VHDL|BPmin|newtry|decoder_box.vhd/decode - decoder - Behavioral/bitproc7 - BitNodeUpdate - Behavioral</ClosedNode>
+         <ClosedNode>/decoder_box - Behavioral |home|peraxor|MEGAsync|27-7|VHDL|BPmin|newtry|decoder_box.vhd/decode - decoder - Behavioral/check_process0 - check_node_process - Behavioral</ClosedNode>
+         <ClosedNode>/decoder_box - Behavioral |home|peraxor|MEGAsync|27-7|VHDL|BPmin|newtry|decoder_box.vhd/decode - decoder - Behavioral/check_process1 - check_node_process - Behavioral</ClosedNode>
+         <ClosedNode>/decoder_box - Behavioral |home|peraxor|MEGAsync|27-7|VHDL|BPmin|newtry|decoder_box.vhd/decode - decoder - Behavioral/check_process2 - check_node_process - Behavioral</ClosedNode>
+         <ClosedNode>/decoder_box - Behavioral |home|peraxor|MEGAsync|27-7|VHDL|BPmin|newtry|decoder_box.vhd/decode - decoder - Behavioral/check_process3 - check_node_process - Behavioral</ClosedNode>
+         <ClosedNode>/decoder_box - Behavioral |home|peraxor|MEGAsync|27-7|VHDL|BPmin|newtry|decoder_box.vhd/decode - decoder - Behavioral/check_process4 - check_node_process - Behavioral</ClosedNode>
+         <ClosedNode>/decoder_box - Behavioral |home|peraxor|MEGAsync|27-7|VHDL|BPmin|newtry|decoder_box.vhd/decode - decoder - Behavioral/check_process5 - check_node_process - Behavioral</ClosedNode>
+         <ClosedNode>/decoder_box - Behavioral |home|peraxor|MEGAsync|27-7|VHDL|BPmin|newtry|decoder_box.vhd/decode - decoder - Behavioral/check_process6 - check_node_process - Behavioral</ClosedNode>
+         <ClosedNode>/decoder_box - Behavioral |home|peraxor|MEGAsync|27-7|VHDL|BPmin|newtry|decoder_box.vhd/decode - decoder - Behavioral/check_process7 - check_node_process - Behavioral</ClosedNode>
+         <ClosedNode>/decoder_box - Behavioral |home|peraxor|MEGAsync|27-7|VHDL|BPmin|newtry|decoder_box.vhd/decode - decoder - Behavioral/find_sign - sign_all - Behavioral</ClosedNode>
+         <ClosedNode>/decoder_box - Behavioral |home|peraxor|MEGAsync|27-7|VHDL|BPmin|newtry|decoder_box.vhd/decode - decoder - Behavioral/give_bit2check - Add_lambda - Behavioral</ClosedNode>
+         <ClosedNode>/decoder_box - Behavioral |home|peraxor|MEGAsync|27-7|VHDL|BPmin|newtry|decoder_box.vhd/decode - decoder - Behavioral/minimum3 - minimum_7comp - Behavioral</ClosedNode>
+         <ClosedNode>/decoder_box - Behavioral |home|peraxor|MEGAsync|27-7|VHDL|BPmin|newtry|decoder_box.vhd/decode - decoder - Behavioral/outputs - shift_register_piso - archi</ClosedNode>
+         <ClosedNode>/decoder_box - Behavioral |home|peraxor|MEGAsync|27-7|VHDL|BPmin|newtry|decoder_box.vhd/decode - decoder - Behavioral/row_proc - row_processor - row_proc</ClosedNode>
+         <ClosedNode>/decoder_box - Behavioral |home|peraxor|MEGAsync|27-7|VHDL|BPmin|newtry|decoder_box.vhd/decode - decoder - Behavioral/soft_codeword - lambdas_final - Behavioral/new_soft_codeword - lambda_final1 - Behavioral</ClosedNode>
+         <ClosedNode>/decoder_box - Behavioral |home|peraxor|MEGAsync|27-7|VHDL|BPmin|newtry|decoder_box.vhd/my_types_pkg</ClosedNode>
+         <ClosedNode>/two_minimum_with - two_min_with |home|peraxor|MEGAsync|27-7|VHDL|BPmin|newtry|tw_minimum_withregistrs.vhd</ClosedNode>
+         <ClosedNode>PROJECT</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>two_minimum_with - two_min_with (/home/peraxor/MEGAsync/27-7/VHDL/BPmin/newtry/tw_minimum_withregistrs.vhd)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >16</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001da000000020000000000000000000000000200000064ffffffff000000810000000300000002000001da0000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>two_minimum_with - two_min_with (/home/peraxor/MEGAsync/27-7/VHDL/BPmin/newtry/tw_minimum_withregistrs.vhd)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f4000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f40000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <ItemView guiview="File" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000000000000000100000000000000000000000000000000000002f1000000040101000100000000000000000000000064ffffffff000000810000000000000004000000ae0000000100000000000000270000000100000000000000750000000100000000000001a70000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>adderNbit.vhd</CurrentItem>
+   </ItemView>
+   <ItemView guiview="Library" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>work</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000000000000001000000000000000000000000000000000000011c000000010001000100000000000000000000000064ffffffff0000008100000000000000010000011c0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>work</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Configure Target Device</ClosedNode>
+         <ClosedNode>Design Utilities</ClosedNode>
+         <ClosedNode>Implement Design/Map</ClosedNode>
+         <ClosedNode>Implement Design/Place &amp; Route</ClosedNode>
+         <ClosedNode>Implement Design/Translate</ClosedNode>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Check Syntax</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f4000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f40000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Check Syntax</CurrentItem>
+   </ItemView>
+   <SourceProcessView>000000ff0000000000000002000001380000011b01000000040100000002</SourceProcessView>
+   <CurrentView>Behavioral Simulation</CurrentView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VHDL_PACKAGE_BODY" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f4000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f40000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_NGC" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Design Utilities</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f4000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f40000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Design Utilities</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/decoder_box - Behavioral |home|peraxor|MEGAsync|27-7|VHDL|BPmin|newtry|decoder_box.vhd</ClosedNode>
+         <ClosedNode>/minimum_13comp - Behavioral |home|peraxor|MEGAsync|27-7|VHDL|belief_propagation|minimum_13comp.vhd</ClosedNode>
+         <ClosedNode>/two_minimum_with - two_min_with |home|peraxor|MEGAsync|27-7|VHDL|BPmin|newtry|tw_minimum_withregistrs.vhd</ClosedNode>
+         <ClosedNode>PROJECT</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>two_minimum_with - two_min_with (/home/peraxor/MEGAsync/27-7/VHDL/BPmin/newtry/tw_minimum_withregistrs.vhd)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001da000000020000000000000000000000000200000064ffffffff000000810000000300000002000001da0000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>two_minimum_with - two_min_with (/home/peraxor/MEGAsync/27-7/VHDL/BPmin/newtry/tw_minimum_withregistrs.vhd)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f4000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f40000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Simulate Behavioral Model</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f4000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f40000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Simulate Behavioral Model</CurrentItem>
+   </ItemView>
+</Project>

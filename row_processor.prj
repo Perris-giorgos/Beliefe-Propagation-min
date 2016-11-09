@@ -1,0 +1,3 @@
+vhdl work "../../belief_propagation/my_types_pkg.vhd"
+vhdl work "registerN.vhd"
+vhdl work "../../belief_propagation/row_processor.vhd"

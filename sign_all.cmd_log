@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/newtry/sign_all.xst" -ofn "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/newtry/sign_all.syr" 

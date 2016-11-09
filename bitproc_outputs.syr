@@ -1,0 +1,1020 @@
+Release 14.3 - xst P.40xd (lin64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.05 secs
+ 
+--> 
+Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.05 secs
+ 
+--> 
+Reading design: bitproc_outputs.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "bitproc_outputs.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "bitproc_outputs"
+Output Format                      : NGC
+Target Device                      : xc6vlx240t-1-ff1156
+
+---- Source Options
+Top Module Name                    : bitproc_outputs
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 32
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+---- Other Options
+Cores Search Directories           : {"../../belief_propagation"  }
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "/home/peraxor/MEGAsync/27-7/VHDL/belief_propagation/my_types_pkg.vhd" into library work
+Parsing package <my_types_pkg>.
+Parsing package body <my_types_pkg>.
+Parsing VHDL file "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/newtry/bitproc_outputs.vhd" into library work
+Parsing entity <bitproc_outputs>.
+Parsing architecture <Behavioral> of entity <bitproc_outputs>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <bitproc_outputs> (architecture <Behavioral>) from library <work>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <bitproc_outputs>.
+    Related source file is "/home/peraxor/MEGAsync/27-7/VHDL/BPmin/newtry/bitproc_outputs.vhd".
+    Found 6-bit register for signal <lambdas<1>>.
+    Found 6-bit register for signal <lambdas<2>>.
+    Found 6-bit register for signal <lambdas<3>>.
+    Found 6-bit register for signal <lambdas<4>>.
+    Found 6-bit register for signal <lambdas<5>>.
+    Found 6-bit register for signal <lambdas<6>>.
+    Found 6-bit register for signal <lambdas<7>>.
+    Found 6-bit register for signal <lambdas<8>>.
+    Found 6-bit register for signal <lambdas<9>>.
+    Found 6-bit register for signal <lambdas<10>>.
+    Found 6-bit register for signal <lambdas<11>>.
+    Found 6-bit register for signal <lambdas<12>>.
+    Found 6-bit register for signal <lambdas<13>>.
+    Found 6-bit register for signal <lambdas<14>>.
+    Found 6-bit register for signal <lambdas<15>>.
+    Found 6-bit register for signal <lambdas<16>>.
+    Found 6-bit register for signal <lambdas<17>>.
+    Found 6-bit register for signal <lambdas<18>>.
+    Found 6-bit register for signal <lambdas<19>>.
+    Found 6-bit register for signal <lambdas<20>>.
+    Found 6-bit register for signal <lambdas<21>>.
+    Found 6-bit register for signal <lambdas<22>>.
+    Found 6-bit register for signal <lambdas<23>>.
+    Found 6-bit register for signal <lambdas<24>>.
+    Found 6-bit register for signal <lambdas<25>>.
+    Found 6-bit register for signal <lambdas<26>>.
+    Found 6-bit register for signal <lambdas<27>>.
+    Found 6-bit register for signal <lambdas<28>>.
+    Found 6-bit register for signal <lambdas<29>>.
+    Found 6-bit register for signal <lambdas<30>>.
+    Found 6-bit register for signal <lambdas<31>>.
+    Found 6-bit register for signal <lambdas<32>>.
+    Found 6-bit register for signal <lambdas<33>>.
+    Found 6-bit register for signal <lambdas<34>>.
+    Found 6-bit register for signal <lambdas<35>>.
+    Found 6-bit register for signal <lambdas<36>>.
+    Found 6-bit register for signal <lambdas<37>>.
+    Found 6-bit register for signal <lambdas<38>>.
+    Found 6-bit register for signal <lambdas<39>>.
+    Found 6-bit register for signal <lambdas<40>>.
+    Found 6-bit register for signal <lambdas<41>>.
+    Found 6-bit register for signal <lambdas<42>>.
+    Found 6-bit register for signal <lambdas<43>>.
+    Found 6-bit register for signal <lambdas<44>>.
+    Found 6-bit register for signal <lambdas<45>>.
+    Found 6-bit register for signal <lambdas<46>>.
+    Found 6-bit register for signal <lambdas<47>>.
+    Found 6-bit register for signal <lambdas<48>>.
+    Found 6-bit register for signal <lambdas<49>>.
+    Found 6-bit register for signal <lambdas<50>>.
+    Found 6-bit register for signal <lambdas<51>>.
+    Found 6-bit register for signal <lambdas<52>>.
+    Found 6-bit register for signal <lambdas<53>>.
+    Found 6-bit register for signal <lambdas<54>>.
+    Found 6-bit register for signal <lambdas<55>>.
+    Found 6-bit register for signal <lambdas<56>>.
+    Found 6-bit register for signal <lambdas<57>>.
+    Found 6-bit register for signal <lambdas<58>>.
+    Found 6-bit register for signal <lambdas<59>>.
+    Found 6-bit register for signal <lambdas<60>>.
+    Found 6-bit register for signal <lambdas<61>>.
+    Found 6-bit register for signal <lambdas<62>>.
+    Found 6-bit register for signal <lambdas<63>>.
+    Found 6-bit register for signal <lambdas<64>>.
+    Found 6-bit register for signal <lambdas<65>>.
+    Found 6-bit register for signal <lambdas<66>>.
+    Found 6-bit register for signal <lambdas<67>>.
+    Found 6-bit register for signal <lambdas<68>>.
+    Found 6-bit register for signal <lambdas<69>>.
+    Found 6-bit register for signal <lambdas<70>>.
+    Found 6-bit register for signal <lambdas<71>>.
+    Found 6-bit register for signal <lambdas<72>>.
+    Found 6-bit register for signal <lambdas<73>>.
+    Found 6-bit register for signal <lambdas<74>>.
+    Found 6-bit register for signal <lambdas<75>>.
+    Found 6-bit register for signal <lambdas<76>>.
+    Found 6-bit register for signal <lambdas<77>>.
+    Found 6-bit register for signal <lambdas<78>>.
+    Found 6-bit register for signal <lambdas<79>>.
+    Found 6-bit register for signal <lambdas<80>>.
+    Found 6-bit register for signal <lambdas<81>>.
+    Found 6-bit register for signal <lambdas<82>>.
+    Found 6-bit register for signal <lambdas<83>>.
+    Found 6-bit register for signal <lambdas<84>>.
+    Found 6-bit register for signal <lambdas<85>>.
+    Found 6-bit register for signal <lambdas<86>>.
+    Found 6-bit register for signal <lambdas<87>>.
+    Found 6-bit register for signal <lambdas<88>>.
+    Found 6-bit register for signal <lambdas<89>>.
+    Found 6-bit register for signal <lambdas<90>>.
+    Found 6-bit register for signal <lambdas<91>>.
+    Found 6-bit register for signal <lambdas<92>>.
+    Found 6-bit register for signal <lambdas<93>>.
+    Found 6-bit register for signal <lambdas<94>>.
+    Found 6-bit register for signal <lambdas<95>>.
+    Found 6-bit register for signal <lambdas<96>>.
+    Found 6-bit register for signal <lambdas<97>>.
+    Found 6-bit register for signal <lambdas<98>>.
+    Found 6-bit register for signal <lambdas<99>>.
+    Found 6-bit register for signal <lambdas<100>>.
+    Found 6-bit register for signal <lambdas<101>>.
+    Found 6-bit register for signal <lambdas<102>>.
+    Found 6-bit register for signal <lambdas<103>>.
+    Found 6-bit register for signal <lambdas<104>>.
+    Found 6-bit register for signal <lambdas<105>>.
+    Found 6-bit register for signal <lambdas<106>>.
+    Found 6-bit register for signal <lambdas<107>>.
+    Found 6-bit register for signal <lambdas<108>>.
+    Found 6-bit register for signal <lambdas<109>>.
+    Found 6-bit register for signal <lambdas<110>>.
+    Found 6-bit register for signal <lambdas<111>>.
+    Found 6-bit register for signal <lambdas<112>>.
+    Found 6-bit register for signal <lambdas<113>>.
+    Found 6-bit register for signal <lambdas<114>>.
+    Found 6-bit register for signal <lambdas<115>>.
+    Found 6-bit register for signal <lambdas<116>>.
+    Found 6-bit register for signal <lambdas<117>>.
+    Found 6-bit register for signal <lambdas<118>>.
+    Found 6-bit register for signal <lambdas<119>>.
+    Found 6-bit register for signal <lambdas<120>>.
+    Found 6-bit register for signal <lambdas<121>>.
+    Found 6-bit register for signal <lambdas<122>>.
+    Found 6-bit register for signal <lambdas<123>>.
+    Found 6-bit register for signal <lambdas<124>>.
+    Found 6-bit register for signal <lambdas<125>>.
+    Found 6-bit register for signal <lambdas<126>>.
+    Found 6-bit register for signal <lambdas<127>>.
+    Found 6-bit register for signal <lambdas<128>>.
+    Found 6-bit register for signal <lambdas<129>>.
+    Found 6-bit register for signal <lambdas<130>>.
+    Found 6-bit register for signal <lambdas<131>>.
+    Found 6-bit register for signal <lambdas<132>>.
+    Found 6-bit register for signal <lambdas<133>>.
+    Found 6-bit register for signal <lambdas<134>>.
+    Found 6-bit register for signal <lambdas<135>>.
+    Found 6-bit register for signal <lambdas<136>>.
+    Found 6-bit register for signal <lambdas<137>>.
+    Found 6-bit register for signal <lambdas<138>>.
+    Found 6-bit register for signal <lambdas<139>>.
+    Found 6-bit register for signal <lambdas<140>>.
+    Found 6-bit register for signal <lambdas<141>>.
+    Found 6-bit register for signal <lambdas<142>>.
+    Found 6-bit register for signal <lambdas<143>>.
+    Found 6-bit register for signal <lambdas<144>>.
+    Found 6-bit register for signal <lambdas<145>>.
+    Found 6-bit register for signal <lambdas<146>>.
+    Found 6-bit register for signal <lambdas<147>>.
+    Found 6-bit register for signal <lambdas<148>>.
+    Found 6-bit register for signal <lambdas<149>>.
+    Found 6-bit register for signal <lambdas<150>>.
+    Found 6-bit register for signal <lambdas<151>>.
+    Found 6-bit register for signal <lambdas<152>>.
+    Found 6-bit register for signal <lambdas<153>>.
+    Found 6-bit register for signal <lambdas<154>>.
+    Found 6-bit register for signal <lambdas<155>>.
+    Found 6-bit register for signal <lambdas<156>>.
+    Found 6-bit register for signal <lambdas<157>>.
+    Found 6-bit register for signal <lambdas<158>>.
+    Found 6-bit register for signal <lambdas<159>>.
+    Found 6-bit register for signal <lambdas<160>>.
+    Found 6-bit register for signal <lambdas<161>>.
+    Found 6-bit register for signal <lambdas<162>>.
+    Found 6-bit register for signal <lambdas<163>>.
+    Found 6-bit register for signal <lambdas<164>>.
+    Found 6-bit register for signal <lambdas<165>>.
+    Found 6-bit register for signal <lambdas<166>>.
+    Found 6-bit register for signal <lambdas<167>>.
+    Found 6-bit register for signal <lambdas<168>>.
+    Found 6-bit register for signal <lambdas<169>>.
+    Found 6-bit register for signal <lambdas<170>>.
+    Found 6-bit register for signal <lambdas<171>>.
+    Found 6-bit register for signal <lambdas<172>>.
+    Found 6-bit register for signal <lambdas<173>>.
+    Found 6-bit register for signal <lambdas<174>>.
+    Found 6-bit register for signal <lambdas<175>>.
+    Found 6-bit register for signal <lambdas<176>>.
+    Found 6-bit register for signal <lambdas<177>>.
+    Found 6-bit register for signal <lambdas<178>>.
+    Found 6-bit register for signal <lambdas<179>>.
+    Found 6-bit register for signal <lambdas<180>>.
+    Found 6-bit register for signal <lambdas<181>>.
+    Found 6-bit register for signal <lambdas<182>>.
+    Found 6-bit register for signal <lambdas<183>>.
+    Found 6-bit register for signal <lambdas<184>>.
+    Found 6-bit register for signal <lambdas<185>>.
+    Found 6-bit register for signal <lambdas<186>>.
+    Found 6-bit register for signal <lambdas<187>>.
+    Found 6-bit register for signal <lambdas<188>>.
+    Found 6-bit register for signal <lambdas<189>>.
+    Found 6-bit register for signal <lambdas<190>>.
+    Found 6-bit register for signal <lambdas<191>>.
+    Found 6-bit register for signal <lambdas<192>>.
+    Found 6-bit register for signal <lambdas<193>>.
+    Found 6-bit register for signal <lambdas<194>>.
+    Found 6-bit register for signal <lambdas<195>>.
+    Found 6-bit register for signal <lambdas<196>>.
+    Found 6-bit register for signal <lambdas<197>>.
+    Found 6-bit register for signal <lambdas<198>>.
+    Found 6-bit register for signal <lambdas<199>>.
+    Found 6-bit register for signal <lambdas<200>>.
+    Found 6-bit register for signal <lambdas<201>>.
+    Found 6-bit register for signal <lambdas<202>>.
+    Found 6-bit register for signal <lambdas<203>>.
+    Found 6-bit register for signal <lambdas<204>>.
+    Found 6-bit register for signal <lambdas<205>>.
+    Found 6-bit register for signal <lambdas<206>>.
+    Found 6-bit register for signal <lambdas<207>>.
+    Found 6-bit register for signal <lambdas<208>>.
+    Found 6-bit register for signal <lambdas<209>>.
+    Found 6-bit register for signal <lambdas<210>>.
+    Found 6-bit register for signal <lambdas<211>>.
+    Found 6-bit register for signal <lambdas<212>>.
+    Found 6-bit register for signal <lambdas<213>>.
+    Found 6-bit register for signal <lambdas<214>>.
+    Found 6-bit register for signal <lambdas<215>>.
+    Found 6-bit register for signal <lambdas<216>>.
+    Found 6-bit register for signal <lambdas<217>>.
+    Found 6-bit register for signal <lambdas<218>>.
+    Found 6-bit register for signal <lambdas<219>>.
+    Found 6-bit register for signal <lambdas<220>>.
+    Found 6-bit register for signal <lambdas<221>>.
+    Found 6-bit register for signal <lambdas<222>>.
+    Found 6-bit register for signal <lambdas<223>>.
+    Found 6-bit register for signal <lambdas<224>>.
+    Found 6-bit register for signal <lambdas<225>>.
+    Found 6-bit register for signal <lambdas<226>>.
+    Found 6-bit register for signal <lambdas<227>>.
+    Found 6-bit register for signal <lambdas<228>>.
+    Found 6-bit register for signal <lambdas<229>>.
+    Found 6-bit register for signal <lambdas<230>>.
+    Found 6-bit register for signal <lambdas<231>>.
+    Found 6-bit register for signal <lambdas<232>>.
+    Found 6-bit register for signal <lambdas<233>>.
+    Found 6-bit register for signal <lambdas<234>>.
+    Found 6-bit register for signal <lambdas<235>>.
+    Found 6-bit register for signal <lambdas<236>>.
+    Found 6-bit register for signal <lambdas<237>>.
+    Found 6-bit register for signal <lambdas<238>>.
+    Found 6-bit register for signal <lambdas<239>>.
+    Found 6-bit register for signal <lambdas<240>>.
+    Found 6-bit register for signal <lambdas<241>>.
+    Found 6-bit register for signal <lambdas<242>>.
+    Found 6-bit register for signal <lambdas<243>>.
+    Found 6-bit register for signal <lambdas<244>>.
+    Found 6-bit register for signal <lambdas<245>>.
+    Found 6-bit register for signal <lambdas<246>>.
+    Found 6-bit register for signal <lambdas<247>>.
+    Found 6-bit register for signal <lambdas<248>>.
+    Found 6-bit register for signal <lambdas<249>>.
+    Found 6-bit register for signal <lambdas<250>>.
+    Found 6-bit register for signal <lambdas<251>>.
+    Found 6-bit register for signal <lambdas<252>>.
+    Found 6-bit register for signal <lambdas<253>>.
+    Found 6-bit register for signal <lambdas<254>>.
+    Found 6-bit register for signal <lambdas<255>>.
+    Found 6-bit register for signal <lambdas<256>>.
+    Found 6-bit register for signal <lambdas<257>>.
+    Found 6-bit register for signal <lambdas<258>>.
+    Found 6-bit register for signal <lambdas<259>>.
+    Found 6-bit register for signal <lambdas<260>>.
+    Found 6-bit register for signal <lambdas<261>>.
+    Found 6-bit register for signal <lambdas<262>>.
+    Found 6-bit register for signal <lambdas<263>>.
+    Found 6-bit register for signal <lambdas<264>>.
+    Found 6-bit register for signal <lambdas<265>>.
+    Found 6-bit register for signal <lambdas<266>>.
+    Found 6-bit register for signal <lambdas<267>>.
+    Found 6-bit register for signal <lambdas<268>>.
+    Found 6-bit register for signal <lambdas<269>>.
+    Found 6-bit register for signal <lambdas<270>>.
+    Found 6-bit register for signal <lambdas<271>>.
+    Found 6-bit register for signal <lambdas<272>>.
+    Found 6-bit register for signal <lambdas<273>>.
+    Found 6-bit register for signal <lambdas<274>>.
+    Found 6-bit register for signal <lambdas<275>>.
+    Found 6-bit register for signal <lambdas<276>>.
+    Found 6-bit register for signal <lambdas<277>>.
+    Found 6-bit register for signal <lambdas<278>>.
+    Found 6-bit register for signal <lambdas<279>>.
+    Found 6-bit register for signal <lambdas<280>>.
+    Found 6-bit register for signal <lambdas<281>>.
+    Found 6-bit register for signal <lambdas<282>>.
+    Found 6-bit register for signal <lambdas<283>>.
+    Found 6-bit register for signal <lambdas<284>>.
+    Found 6-bit register for signal <lambdas<285>>.
+    Found 6-bit register for signal <lambdas<286>>.
+    Found 6-bit register for signal <lambdas<287>>.
+    Found 6-bit register for signal <lambdas<288>>.
+    Found 6-bit register for signal <lambdas<289>>.
+    Found 6-bit register for signal <lambdas<290>>.
+    Found 6-bit register for signal <lambdas<291>>.
+    Found 6-bit register for signal <lambdas<292>>.
+    Found 6-bit register for signal <lambdas<293>>.
+    Found 6-bit register for signal <lambdas<294>>.
+    Found 6-bit register for signal <lambdas<295>>.
+    Found 6-bit register for signal <lambdas<296>>.
+    Found 6-bit register for signal <lambdas<297>>.
+    Found 6-bit register for signal <lambdas<298>>.
+    Found 6-bit register for signal <lambdas<299>>.
+    Found 6-bit register for signal <lambdas<300>>.
+    Found 6-bit register for signal <lambdas<301>>.
+    Found 6-bit register for signal <lambdas<302>>.
+    Found 6-bit register for signal <lambdas<303>>.
+    Found 6-bit register for signal <lambdas<304>>.
+    Found 6-bit register for signal <lambdas<305>>.
+    Found 6-bit register for signal <lambdas<306>>.
+    Found 6-bit register for signal <lambdas<307>>.
+    Found 6-bit register for signal <lambdas<308>>.
+    Found 6-bit register for signal <lambdas<309>>.
+    Found 6-bit register for signal <lambdas<310>>.
+    Found 6-bit register for signal <lambdas<311>>.
+    Found 6-bit register for signal <lambdas<312>>.
+    Found 6-bit register for signal <lambdas<313>>.
+    Found 6-bit register for signal <lambdas<314>>.
+    Found 6-bit register for signal <lambdas<315>>.
+    Found 6-bit register for signal <lambdas<316>>.
+    Found 6-bit register for signal <lambdas<317>>.
+    Found 6-bit register for signal <lambdas<318>>.
+    Found 6-bit register for signal <lambdas<319>>.
+    Found 6-bit register for signal <lambdas<320>>.
+    Found 6-bit register for signal <lambdas<321>>.
+    Found 6-bit register for signal <lambdas<322>>.
+    Found 6-bit register for signal <lambdas<323>>.
+    Found 6-bit register for signal <lambdas<324>>.
+    Found 6-bit register for signal <lambdas<325>>.
+    Found 6-bit register for signal <lambdas<326>>.
+    Found 6-bit register for signal <lambdas<327>>.
+    Found 6-bit register for signal <lambdas<328>>.
+    Found 6-bit register for signal <lambdas<329>>.
+    Found 6-bit register for signal <lambdas<330>>.
+    Found 6-bit register for signal <lambdas<331>>.
+    Found 6-bit register for signal <lambdas<332>>.
+    Found 6-bit register for signal <lambdas<333>>.
+    Found 6-bit register for signal <lambdas<334>>.
+    Found 6-bit register for signal <lambdas<335>>.
+    Found 6-bit register for signal <lambdas<336>>.
+    Found 6-bit register for signal <lambdas<337>>.
+    Found 6-bit register for signal <lambdas<338>>.
+    Found 6-bit register for signal <lambdas<339>>.
+    Found 6-bit register for signal <lambdas<340>>.
+    Found 6-bit register for signal <lambdas<341>>.
+    Found 6-bit register for signal <lambdas<342>>.
+    Found 6-bit register for signal <lambdas<343>>.
+    Found 6-bit register for signal <lambdas<344>>.
+    Found 6-bit register for signal <lambdas<345>>.
+    Found 6-bit register for signal <lambdas<346>>.
+    Found 6-bit register for signal <lambdas<347>>.
+    Found 6-bit register for signal <lambdas<348>>.
+    Found 6-bit register for signal <lambdas<349>>.
+    Found 6-bit register for signal <lambdas<350>>.
+    Found 6-bit register for signal <lambdas<351>>.
+    Found 6-bit register for signal <lambdas<352>>.
+    Found 6-bit register for signal <lambdas<353>>.
+    Found 6-bit register for signal <lambdas<354>>.
+    Found 6-bit register for signal <lambdas<355>>.
+    Found 6-bit register for signal <lambdas<356>>.
+    Found 6-bit register for signal <lambdas<357>>.
+    Found 6-bit register for signal <lambdas<358>>.
+    Found 6-bit register for signal <lambdas<359>>.
+    Found 6-bit register for signal <lambdas<360>>.
+    Found 6-bit register for signal <lambdas<361>>.
+    Found 6-bit register for signal <lambdas<362>>.
+    Found 6-bit register for signal <lambdas<363>>.
+    Found 6-bit register for signal <lambdas<364>>.
+    Found 6-bit register for signal <lambdas<365>>.
+    Found 6-bit register for signal <lambdas<366>>.
+    Found 6-bit register for signal <lambdas<367>>.
+    Found 6-bit register for signal <lambdas<368>>.
+    Found 6-bit register for signal <lambdas<369>>.
+    Found 6-bit register for signal <lambdas<370>>.
+    Found 6-bit register for signal <lambdas<371>>.
+    Found 6-bit register for signal <lambdas<372>>.
+    Found 6-bit register for signal <lambdas<373>>.
+    Found 6-bit register for signal <lambdas<374>>.
+    Found 6-bit register for signal <lambdas<375>>.
+    Found 6-bit register for signal <lambdas<376>>.
+    Found 6-bit register for signal <lambdas<377>>.
+    Found 6-bit register for signal <lambdas<378>>.
+    Found 6-bit register for signal <lambdas<379>>.
+    Found 6-bit register for signal <lambdas<380>>.
+    Found 6-bit register for signal <lambdas<381>>.
+    Found 6-bit register for signal <lambdas<382>>.
+    Found 6-bit register for signal <lambdas<383>>.
+    Found 6-bit register for signal <lambdas<384>>.
+    Found 6-bit register for signal <lambdas<385>>.
+    Found 6-bit register for signal <lambdas<386>>.
+    Found 6-bit register for signal <lambdas<387>>.
+    Found 6-bit register for signal <lambdas<388>>.
+    Found 6-bit register for signal <lambdas<389>>.
+    Found 6-bit register for signal <lambdas<390>>.
+    Found 6-bit register for signal <lambdas<391>>.
+    Found 6-bit register for signal <lambdas<392>>.
+    Found 6-bit register for signal <lambdas<393>>.
+    Found 6-bit register for signal <lambdas<394>>.
+    Found 6-bit register for signal <lambdas<395>>.
+    Found 6-bit register for signal <lambdas<396>>.
+    Found 6-bit register for signal <lambdas<397>>.
+    Found 6-bit register for signal <lambdas<398>>.
+    Found 6-bit register for signal <lambdas<399>>.
+    Found 6-bit register for signal <lambdas<400>>.
+    Found 6-bit register for signal <lambdas<401>>.
+    Found 6-bit register for signal <lambdas<402>>.
+    Found 6-bit register for signal <lambdas<403>>.
+    Found 6-bit register for signal <lambdas<404>>.
+    Found 6-bit register for signal <lambdas<405>>.
+    Found 6-bit register for signal <lambdas<406>>.
+    Found 6-bit register for signal <lambdas<407>>.
+    Found 6-bit register for signal <lambdas<408>>.
+    Found 6-bit register for signal <lambdas<409>>.
+    Found 6-bit register for signal <lambdas<410>>.
+    Found 6-bit register for signal <lambdas<411>>.
+    Found 6-bit register for signal <lambdas<412>>.
+    Found 6-bit register for signal <lambdas<413>>.
+    Found 6-bit register for signal <lambdas<414>>.
+    Found 6-bit register for signal <lambdas<415>>.
+    Found 6-bit register for signal <lambdas<416>>.
+    Found 6-bit register for signal <lambdas<417>>.
+    Found 6-bit register for signal <lambdas<418>>.
+    Found 6-bit register for signal <lambdas<419>>.
+    Found 6-bit register for signal <lambdas<420>>.
+    Found 6-bit register for signal <lambdas<421>>.
+    Found 6-bit register for signal <lambdas<422>>.
+    Found 6-bit register for signal <lambdas<423>>.
+    Found 6-bit register for signal <lambdas<424>>.
+    Found 6-bit register for signal <lambdas<425>>.
+    Found 6-bit register for signal <lambdas<426>>.
+    Found 6-bit register for signal <lambdas<427>>.
+    Found 6-bit register for signal <lambdas<428>>.
+    Found 6-bit register for signal <lambdas<429>>.
+    Found 6-bit register for signal <lambdas<430>>.
+    Found 6-bit register for signal <lambdas<431>>.
+    Found 6-bit register for signal <lambdas<432>>.
+    Found 6-bit register for signal <lambdas<433>>.
+    Found 6-bit register for signal <lambdas<434>>.
+    Found 6-bit register for signal <lambdas<435>>.
+    Found 6-bit register for signal <lambdas<436>>.
+    Found 6-bit register for signal <lambdas<437>>.
+    Found 6-bit register for signal <lambdas<438>>.
+    Found 6-bit register for signal <lambdas<439>>.
+    Found 6-bit register for signal <lambdas<440>>.
+    Found 6-bit register for signal <lambdas<441>>.
+    Found 6-bit register for signal <lambdas<442>>.
+    Found 6-bit register for signal <lambdas<443>>.
+    Found 6-bit register for signal <lambdas<444>>.
+    Found 6-bit register for signal <lambdas<445>>.
+    Found 6-bit register for signal <lambdas<446>>.
+    Found 6-bit register for signal <lambdas<447>>.
+    Found 6-bit register for signal <lambdas<448>>.
+    Found 6-bit register for signal <lambdas<449>>.
+    Found 6-bit register for signal <lambdas<450>>.
+    Found 6-bit register for signal <lambdas<451>>.
+    Found 6-bit register for signal <lambdas<452>>.
+    Found 6-bit register for signal <lambdas<453>>.
+    Found 6-bit register for signal <lambdas<454>>.
+    Found 6-bit register for signal <lambdas<455>>.
+    Found 6-bit register for signal <lambdas<456>>.
+    Found 6-bit register for signal <lambdas<457>>.
+    Found 6-bit register for signal <lambdas<458>>.
+    Found 6-bit register for signal <lambdas<459>>.
+    Found 6-bit register for signal <lambdas<460>>.
+    Found 6-bit register for signal <lambdas<461>>.
+    Found 6-bit register for signal <lambdas<462>>.
+    Found 6-bit register for signal <lambdas<463>>.
+    Found 6-bit register for signal <lambdas<464>>.
+    Found 6-bit register for signal <lambdas<465>>.
+    Found 6-bit register for signal <lambdas<466>>.
+    Found 6-bit register for signal <lambdas<467>>.
+    Found 6-bit register for signal <lambdas<468>>.
+    Found 6-bit register for signal <lambdas<469>>.
+    Found 6-bit register for signal <lambdas<470>>.
+    Found 6-bit register for signal <lambdas<471>>.
+    Found 6-bit register for signal <lambdas<472>>.
+    Found 6-bit register for signal <lambdas<473>>.
+    Found 6-bit register for signal <lambdas<474>>.
+    Found 6-bit register for signal <lambdas<475>>.
+    Found 6-bit register for signal <lambdas<476>>.
+    Found 6-bit register for signal <lambdas<477>>.
+    Found 6-bit register for signal <lambdas<478>>.
+    Found 6-bit register for signal <lambdas<479>>.
+    Found 6-bit register for signal <lambdas<480>>.
+    Found 6-bit register for signal <lambdas<481>>.
+    Found 6-bit register for signal <lambdas<482>>.
+    Found 6-bit register for signal <lambdas<483>>.
+    Found 6-bit register for signal <lambdas<484>>.
+    Found 6-bit register for signal <lambdas<485>>.
+    Found 6-bit register for signal <lambdas<486>>.
+    Found 6-bit register for signal <lambdas<487>>.
+    Found 6-bit register for signal <lambdas<488>>.
+    Found 6-bit register for signal <lambdas<489>>.
+    Found 6-bit register for signal <lambdas<490>>.
+    Found 6-bit register for signal <lambdas<491>>.
+    Found 6-bit register for signal <lambdas<492>>.
+    Found 6-bit register for signal <lambdas<493>>.
+    Found 6-bit register for signal <lambdas<494>>.
+    Found 6-bit register for signal <lambdas<495>>.
+    Found 6-bit register for signal <lambdas<496>>.
+    Found 6-bit register for signal <lambdas<497>>.
+    Found 6-bit register for signal <lambdas<498>>.
+    Found 6-bit register for signal <lambdas<499>>.
+    Found 6-bit register for signal <lambdas<500>>.
+    Found 6-bit register for signal <lambdas<501>>.
+    Found 6-bit register for signal <lambdas<502>>.
+    Found 6-bit register for signal <lambdas<503>>.
+    Found 6-bit register for signal <lambdas<504>>.
+    Found 6-bit register for signal <lambdas<505>>.
+    Found 6-bit register for signal <lambdas<506>>.
+    Found 6-bit register for signal <lambdas<507>>.
+    Found 6-bit register for signal <lambdas<508>>.
+    Found 6-bit register for signal <lambdas<509>>.
+    Found 6-bit register for signal <lambdas<510>>.
+    Found 6-bit register for signal <lambdas<511>>.
+    Found 6-bit register for signal <lambdas<512>>.
+    Found 6-bit register for signal <lambdas<513>>.
+    Found 6-bit register for signal <lambdas<514>>.
+    Found 6-bit register for signal <lambdas<515>>.
+    Found 6-bit register for signal <lambdas<516>>.
+    Found 6-bit register for signal <lambdas<517>>.
+    Found 6-bit register for signal <lambdas<518>>.
+    Found 6-bit register for signal <lambdas<519>>.
+    Found 6-bit register for signal <lambdas<520>>.
+    Found 6-bit register for signal <lambdas<521>>.
+    Found 6-bit register for signal <lambdas<522>>.
+    Found 6-bit register for signal <lambdas<523>>.
+    Found 6-bit register for signal <lambdas<524>>.
+    Found 6-bit register for signal <lambdas<525>>.
+    Found 6-bit register for signal <lambdas<526>>.
+    Found 6-bit register for signal <lambdas<527>>.
+    Found 6-bit register for signal <lambdas<528>>.
+    Found 6-bit register for signal <lambdas<529>>.
+    Found 6-bit register for signal <lambdas<530>>.
+    Found 6-bit register for signal <lambdas<531>>.
+    Found 6-bit register for signal <lambdas<532>>.
+    Found 6-bit register for signal <lambdas<533>>.
+    Found 6-bit register for signal <lambdas<534>>.
+    Found 6-bit register for signal <lambdas<535>>.
+    Found 6-bit register for signal <lambdas<536>>.
+    Found 6-bit register for signal <lambdas<537>>.
+    Found 6-bit register for signal <lambdas<538>>.
+    Found 6-bit register for signal <lambdas<539>>.
+    Found 6-bit register for signal <lambdas<540>>.
+    Found 6-bit register for signal <lambdas<541>>.
+    Found 6-bit register for signal <lambdas<542>>.
+    Found 6-bit register for signal <lambdas<543>>.
+    Found 6-bit register for signal <lambdas<544>>.
+    Found 6-bit register for signal <lambdas<545>>.
+    Found 6-bit register for signal <lambdas<546>>.
+    Found 6-bit register for signal <lambdas<547>>.
+    Found 6-bit register for signal <lambdas<548>>.
+    Found 6-bit register for signal <lambdas<549>>.
+    Found 6-bit register for signal <lambdas<550>>.
+    Found 6-bit register for signal <lambdas<551>>.
+    Found 6-bit register for signal <lambdas<552>>.
+    Found 6-bit register for signal <lambdas<553>>.
+    Found 6-bit register for signal <lambdas<554>>.
+    Found 6-bit register for signal <lambdas<555>>.
+    Found 6-bit register for signal <lambdas<556>>.
+    Found 6-bit register for signal <lambdas<557>>.
+    Found 6-bit register for signal <lambdas<558>>.
+    Found 6-bit register for signal <lambdas<559>>.
+    Found 6-bit register for signal <lambdas<560>>.
+    Found 6-bit register for signal <lambdas<561>>.
+    Found 6-bit register for signal <lambdas<562>>.
+    Found 6-bit register for signal <lambdas<563>>.
+    Found 6-bit register for signal <lambdas<564>>.
+    Found 6-bit register for signal <lambdas<565>>.
+    Found 6-bit register for signal <lambdas<566>>.
+    Found 6-bit register for signal <lambdas<567>>.
+    Found 6-bit register for signal <lambdas<568>>.
+    Found 6-bit register for signal <lambdas<569>>.
+    Found 6-bit register for signal <lambdas<570>>.
+    Found 6-bit register for signal <lambdas<571>>.
+    Found 6-bit register for signal <lambdas<572>>.
+    Found 6-bit register for signal <lambdas<573>>.
+    Found 6-bit register for signal <lambdas<574>>.
+    Found 6-bit register for signal <lambdas<575>>.
+    Found 6-bit register for signal <lambdas<576>>.
+    Found 6-bit register for signal <lambdas<577>>.
+    Found 6-bit register for signal <lambdas<578>>.
+    Found 6-bit register for signal <lambdas<579>>.
+    Found 6-bit register for signal <lambdas<580>>.
+    Found 6-bit register for signal <lambdas<581>>.
+    Found 6-bit register for signal <lambdas<582>>.
+    Found 6-bit register for signal <lambdas<583>>.
+    Found 6-bit register for signal <lambdas<584>>.
+    Found 6-bit register for signal <lambdas<585>>.
+    Found 6-bit register for signal <lambdas<586>>.
+    Found 6-bit register for signal <lambdas<587>>.
+    Found 6-bit register for signal <lambdas<588>>.
+    Found 6-bit register for signal <lambdas<589>>.
+    Found 6-bit register for signal <lambdas<590>>.
+    Found 6-bit register for signal <lambdas<591>>.
+    Found 6-bit register for signal <lambdas<592>>.
+    Found 6-bit register for signal <lambdas<593>>.
+    Found 6-bit register for signal <lambdas<594>>.
+    Found 6-bit register for signal <lambdas<595>>.
+    Found 6-bit register for signal <lambdas<596>>.
+    Found 6-bit register for signal <lambdas<597>>.
+    Found 6-bit register for signal <lambdas<598>>.
+    Found 6-bit register for signal <lambdas<599>>.
+    Found 6-bit register for signal <lambdas<600>>.
+    Found 6-bit register for signal <lambdas<601>>.
+    Found 6-bit register for signal <lambdas<602>>.
+    Found 6-bit register for signal <lambdas<603>>.
+    Found 6-bit register for signal <lambdas<604>>.
+    Found 6-bit register for signal <lambdas<605>>.
+    Found 6-bit register for signal <lambdas<606>>.
+    Found 6-bit register for signal <lambdas<607>>.
+    Found 6-bit register for signal <lambdas<608>>.
+    Found 6-bit register for signal <lambdas<609>>.
+    Found 6-bit register for signal <lambdas<610>>.
+    Found 6-bit register for signal <lambdas<611>>.
+    Found 6-bit register for signal <lambdas<612>>.
+    Found 6-bit register for signal <lambdas<613>>.
+    Found 6-bit register for signal <lambdas<614>>.
+    Found 6-bit register for signal <lambdas<615>>.
+    Found 6-bit register for signal <lambdas<616>>.
+    Found 6-bit register for signal <lambdas<617>>.
+    Found 6-bit register for signal <lambdas<618>>.
+    Found 6-bit register for signal <lambdas<619>>.
+    Found 6-bit register for signal <lambdas<620>>.
+    Found 6-bit register for signal <lambdas<621>>.
+    Found 6-bit register for signal <lambdas<622>>.
+    Found 6-bit register for signal <lambdas<623>>.
+    Found 6-bit register for signal <lambdas<624>>.
+    Found 6-bit register for signal <lambdas<625>>.
+    Found 6-bit register for signal <lambdas<626>>.
+    Found 6-bit register for signal <lambdas<627>>.
+    Found 6-bit register for signal <lambdas<628>>.
+    Found 6-bit register for signal <lambdas<629>>.
+    Found 6-bit register for signal <lambdas<630>>.
+    Found 6-bit register for signal <lambdas<631>>.
+    Found 6-bit register for signal <lambdas<632>>.
+    Found 6-bit register for signal <lambdas<633>>.
+    Found 6-bit register for signal <lambdas<634>>.
+    Found 6-bit register for signal <lambdas<635>>.
+    Found 6-bit register for signal <lambdas<636>>.
+    Found 6-bit register for signal <lambdas<637>>.
+    Found 6-bit register for signal <lambdas<638>>.
+    Found 6-bit register for signal <lambdas<639>>.
+    Found 6-bit register for signal <lambdas<640>>.
+    Found 6-bit register for signal <lambdas<641>>.
+    Found 6-bit register for signal <lambdas<642>>.
+    Found 6-bit register for signal <lambdas<643>>.
+    Found 6-bit register for signal <lambdas<644>>.
+    Found 6-bit register for signal <lambdas<645>>.
+    Found 6-bit register for signal <lambdas<646>>.
+    Found 6-bit register for signal <lambdas<647>>.
+    Found 6-bit register for signal <lambdas<0>>.
+    Found 512x69-bit Read Only RAM for signal <_n15249>
+    Summary:
+	inferred   1 RAM(s).
+	inferred 3888 D-type flip-flop(s).
+	inferred 2864 Multiplexer(s).
+Unit <bitproc_outputs> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 1
+ 512x69-bit single-port Read Only RAM                  : 1
+# Registers                                            : 648
+ 6-bit register                                        : 648
+# Multiplexers                                         : 2864
+ 6-bit 2-to-1 multiplexer                              : 2864
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+Synthesizing (advanced) Unit <bitproc_outputs>.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram__n15249> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 512-word x 69-bit                   |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <row>           |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+Unit <bitproc_outputs> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 1
+ 512x69-bit single-port distributed Read Only RAM      : 1
+# Registers                                            : 3888
+ Flip-Flops                                            : 3888
+# Multiplexers                                         : 2864
+ 6-bit 2-to-1 multiplexer                              : 2864
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <bitproc_outputs> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block bitproc_outputs, actual ratio is 14.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 3888
+ Flip-Flops                                            : 3888
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : bitproc_outputs.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 14937
+#      LUT2                        : 114
+#      LUT3                        : 84
+#      LUT4                        : 1675
+#      LUT5                        : 4644
+#      LUT6                        : 8404
+#      MUXF7                       : 16
+# FlipFlops/Latches                : 3888
+#      FDE                         : 3888
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 3945
+#      IBUF                        : 57
+#      OBUF                        : 3888
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6vlx240tff1156-1 
+
+
+Slice Logic Utilization: 
+ Number of Slice LUTs:                14921  out of  150720     9%  
+    Number used as Logic:             14921  out of  150720     9%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:  14921
+   Number with an unused Flip Flop:   14921  out of  14921   100%  
+   Number with an unused LUT:             0  out of  14921     0%  
+   Number of fully used LUT-FF pairs:     0  out of  14921     0%  
+   Number of unique control sets:       648
+
+IO Utilization: 
+ Number of IOs:                        3946
+ Number of bonded IOBs:                3946  out of    600   657% (*) 
+    IOB Flip Flops/Latches:            3888
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                1  out of     32     3%  
+
+WARNING:Xst:1336 -  (*) More than 100% of Device resources are used
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 3888  |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -1
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: 6.500ns
+   Maximum output required time after clock: 0.777ns
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 12925344 / 7776
+-------------------------------------------------------------------------
+Offset:              6.500ns (Levels of Logic = 8)
+  Source:            row<5> (PAD)
+  Destination:       lambdas_173_0 (FF)
+  Destination Clock: clk rising
+
+  Data Path: row<5> to lambdas_173_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O           270   0.003   0.980  row_5_IBUF (row_5_IBUF)
+     LUT5:I0->O            3   0.068   0.595  Mram__n152493211 (Mram__n15249321)
+     LUT5:I2->O            1   0.068   0.417  Mram__n15249324113 (Mram__n15249324112)
+     LUT6:I5->O           22   0.068   0.911  Mram__n15249324114 (_n15249<55>)
+     LUT5:I0->O           32   0.068   0.928  row[8]_Decoder_2278_OUT<189><58>_SW0 (N4044)
+     LUT6:I1->O           13   0.068   0.718  row[8]_Decoder_2278_OUT<185><58> (row[8]_Decoder_2278_OUT<185>)
+     LUT4:I0->O            1   0.068   0.778  _n10827_inv4_SW0 (N8862)
+     LUT6:I0->O            6   0.068   0.432  _n10827_inv4 (_n10827_inv)
+     FDE:CE                    0.263          lambdas_185_0
+    ----------------------------------------
+    Total                      6.500ns (0.742ns logic, 5.758ns route)
+                                       (11.4% logic, 88.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 3888 / 3888
+-------------------------------------------------------------------------
+Offset:              0.777ns (Levels of Logic = 1)
+  Source:            lambdas_0_5 (FF)
+  Destination:       lambdas<0><5> (PAD)
+  Source Clock:      clk rising
+
+  Data Path: lambdas_0_5 to lambdas<0><5>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              1   0.375   0.399  lambdas_0_5 (lambdas_0_5)
+     OBUF:I->O                 0.003          lambdas_0__5_OBUF (lambdas<0><5>)
+    ----------------------------------------
+    Total                      0.777ns (0.378ns logic, 0.399ns route)
+                                       (48.6% logic, 51.4% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 80.00 secs
+Total CPU time to Xst completion: 79.42 secs
+ 
+--> 
+
+
+Total memory usage is 542728 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+
