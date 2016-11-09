@@ -16,6 +16,7 @@ port (
 		a5 : in std_logic_vector(n-1 downto 0);
 		a6 : in std_logic_vector(n-1 downto 0);
 		a7 : in std_logic_vector(n-1 downto 0);
+		test : out std_logic;
 		lambdas : out array3);		
 end bitproc_outputs;
 
@@ -34,6 +35,7 @@ begin
 		lambdas(col_position(row, 7)) <= a7;
 	end if;
 end process;
+test <= a1(2);
 
 
 end Behavioral;

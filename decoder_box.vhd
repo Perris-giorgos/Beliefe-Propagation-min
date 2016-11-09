@@ -16,6 +16,7 @@ port (clock : in std_logic;
 	  channelin1 :in std_logic_vector(n-1 downto 0);
 	  channelin2 :in std_logic_vector(n-1 downto 0);
 	  noise_var :in std_logic_vector(n-1 downto 0);
+	  test : out std_logic;
 		new_lambda1: out std_logic_vector(n-1 downto 0);
 	  new_lambda2: out std_logic_vector(n-1 downto 0));
 end decoder_box;
@@ -55,7 +56,7 @@ port(clock : in std_logic;
 	  in_cpl : out std_logic;
 	  	--start_output: in std_logic;
 	   --start_output, write_enable1, read_enable1, row_process1, enable_rcounter,clear_rcounter, add_lambda1, bit_proc1, lambdas_final1, sign1, clear_in_counter: in std_logic;
-	  test : out std_logic;
+	  tests : out std_logic;
 	  new_lambda1: out std_logic_vector(n-1 downto 0);
 	  new_lambda2: out std_logic_vector(n-1 downto 0));
 end component;
@@ -68,6 +69,6 @@ control_unit : FSM port map (clk => clock, rstall => rst, i_inputs_complete => i
 							o_sign1 => sign1, o_final_lambda => lambdas_final1, o_output  => start_output);
 decode : decoder port map (clock => clock, clear => clr, clear_rcounter => clr,clear_in_counter=> clr,channelin1 => channelin1, channelin2 => channelin2, noise_var => noise_var,read_enable1 => read_enable1, write_enable1 => write_enable1,
 							enable_rcounter => enable_rcounter, row_process1 => row_process1, add_lambda1 => add_lambda1, first_t => first_t, minimu => minimu, check_proc1 => check_proc1, bit_proc1 => bit_proc1,
-							sign1 => sign1, lambdas_final1 => lambdas_final1, start_output=>start_output, in_cpl => in_cpl,ar => ar, new_lambda1 => new_lambda1,new_lambda2 => new_lambda2);
+							sign1 => sign1, lambdas_final1 => lambdas_final1, start_output=>start_output, in_cpl => in_cpl,ar => ar, tests => test, new_lambda1 => new_lambda1,new_lambda2 => new_lambda2);
 
 end Behavioral;

@@ -18,21 +18,21 @@
 <td>/opt/Xilinx/14.3/ISE_DS/ISE//lib/lin64</td>
 <td><font color=gray>&lt;&nbsp;data not available&nbsp;&gt;</font></td>
 <td><font color=gray>&lt;&nbsp;data not available&nbsp;&gt;</font></td>
-<td><font color=gray>&lt;&nbsp;data not available&nbsp;&gt;</font></td>
+<td><font color=gray>/opt/Xilinx/14.3/ISE_DS/ISE//lib/lin64</font></td>
 </tr>
 <tr>
 <td>PATH</td>
 <td>/opt/Xilinx/14.3/ISE_DS/ISE//bin/lin64:<br>/usr/local/sbin:<br>/usr/local/bin:<br>/usr/bin:<br>/usr/lib/jvm/default/bin:<br>/usr/bin/site_perl:<br>/usr/bin/vendor_perl:<br>/usr/bin/core_perl</td>
 <td><font color=gray>&lt;&nbsp;data not available&nbsp;&gt;</font></td>
 <td><font color=gray>&lt;&nbsp;data not available&nbsp;&gt;</font></td>
-<td><font color=gray>&lt;&nbsp;data not available&nbsp;&gt;</font></td>
+<td><font color=gray>/opt/Xilinx/14.3/ISE_DS/ISE//bin/lin64:<br>/usr/local/sbin:<br>/usr/local/bin:<br>/usr/bin:<br>/usr/lib/jvm/default/bin:<br>/usr/bin/site_perl:<br>/usr/bin/vendor_perl:<br>/usr/bin/core_perl</font></td>
 </tr>
 <tr>
 <td>XILINX</td>
 <td>/opt/Xilinx/14.3/ISE_DS/ISE/</td>
 <td><font color=gray>&lt;&nbsp;data not available&nbsp;&gt;</font></td>
 <td><font color=gray>&lt;&nbsp;data not available&nbsp;&gt;</font></td>
-<td><font color=gray>&lt;&nbsp;data not available&nbsp;&gt;</font></td>
+<td><font color=gray>/opt/Xilinx/14.3/ISE_DS/ISE/</font></td>
 </tr>
 </TABLE>
 <A NAME="Synthesis Property Settings"></A>
@@ -49,13 +49,13 @@
 <tr>
 <td>-ifn</td>
 <td>&nbsp;</td>
-<td>decoder.prj</td>
+<td>decoder_box.prj</td>
 <td>&nbsp;</td>
 </tr>
 <tr>
 <td>-ofn</td>
 <td>&nbsp;</td>
-<td>decoder</td>
+<td>decoder_box</td>
 <td>&nbsp;</td>
 </tr>
 <tr>
@@ -73,7 +73,7 @@
 <tr>
 <td>-top</td>
 <td>&nbsp;</td>
-<td>decoder</td>
+<td>decoder_box</td>
 <td>&nbsp;</td>
 </tr>
 <tr>
@@ -103,13 +103,13 @@
 <tr>
 <td>-keep_hierarchy</td>
 <td>Keep Hierarchy</td>
-<td>Yes</td>
+<td>No</td>
 <td>No</td>
 </tr>
 <tr>
 <td>-netlist_hierarchy</td>
 <td>Netlist Hierarchy</td>
-<td>As_Optimized</td>
+<td>Rebuilt</td>
 <td>As_Optimized</td>
 </tr>
 <tr>
@@ -329,6 +329,42 @@
 <td>0</td>
 </tr>
 </TABLE>
+<A NAME="Place and Route Property Settings"></A>
+&nbsp;<BR><TABLE BORDER CELLSPACING=0 CELLPADDING=3 WIDTH='100%'>
+<TR ALIGN=CENTER BGCOLOR='#99CCFF'>
+<TD ALIGN=CENTER COLSPAN='4'><B>Place and Route Property Settings </B></TD>
+</tr>
+<tr bgcolor='#ffff99'>
+<td><b>Switch Name</b></td>
+<td><b>Property Name</b></td>
+<td><b>Value</b></td>
+<td><b>Default Value</b></td>
+</tr>
+<tr>
+<td><font color=gray>-intstyle</font></td>
+<td><font color=gray>&nbsp;</font></td>
+<td><font color=gray>ise</font></td>
+<td><font color=gray>&nbsp;</font></td>
+</tr>
+<tr>
+<td><font color=gray>-mt</font></td>
+<td><font color=gray>Enable Multi-Threading</font></td>
+<td><font color=gray>off</font></td>
+<td><font color=gray>off</font></td>
+</tr>
+<tr>
+<td><font color=gray>-ol</font></td>
+<td><font color=gray>Place & Route Effort Level (Overall)</font></td>
+<td><font color=gray>high</font></td>
+<td><font color=gray>std</font></td>
+</tr>
+<tr>
+<td><font color=gray>-w</font></td>
+<td><font color=gray>&nbsp;</font></td>
+<td><font color=gray>true</font></td>
+<td><font color=gray>false</font></td>
+</tr>
+</TABLE>
 <A NAME="Operating System Information"></A>
 &nbsp;<BR><TABLE BORDER CELLSPACING=0 CELLPADDING=3 WIDTH='100%'>
 <TR ALIGN=CENTER BGCOLOR='#99CCFF'>
@@ -343,31 +379,31 @@
 </tr>
 <tr>
 <td>CPU Architecture/Speed</td>
-<td>Intel(R) Core(TM) i5-2520M CPU @ 2.50GHz/2999.902 MHz</td>
+<td>Intel(R) Core(TM) i5-2520M CPU @ 2.50GHz/3116.210 MHz</td>
 <td><font color=gray>&lt;&nbsp; data not available &nbsp;&gt;</font></td>
 <td><font color=gray>&lt;&nbsp; data not available &nbsp;&gt;</font></td>
-<td><font color=gray>&lt;&nbsp; data not available &nbsp;&gt;</font></td>
+<td><font color=gray>Intel(R) Core(TM) i5-2520M CPU @ 2.50GHz/2318.457 MHz</font></td>
 </tr>
 <tr>
 <td>Host</td>
 <td>Perakoz</td>
 <td><font color=gray>&lt;&nbsp; data not available &nbsp;&gt;</font></td>
 <td><font color=gray>&lt;&nbsp; data not available &nbsp;&gt;</font></td>
-<td><font color=gray>&lt;&nbsp; data not available &nbsp;&gt;</font></td>
+<td><font color=gray>Perakoz</font></td>
 </tr>
 <tr>
 <td>OS Name</td>
 <td>ManjaroLinux</td>
 <td><font color=gray>&lt;&nbsp; data not available &nbsp;&gt;</font></td>
 <td><font color=gray>&lt;&nbsp; data not available &nbsp;&gt;</font></td>
-<td><font color=gray>&lt;&nbsp; data not available &nbsp;&gt;</font></td>
+<td><font color=gray>ManjaroLinux</font></td>
 </tr>
 <tr>
 <td>OS Release</td>
 <td>Manjaro Linux</td>
 <td><font color=gray>&lt;&nbsp; data not available &nbsp;&gt;</font></td>
 <td><font color=gray>&lt;&nbsp; data not available &nbsp;&gt;</font></td>
-<td><font color=gray>&lt;&nbsp; data not available &nbsp;&gt;</font></td>
+<td><font color=gray>Manjaro Linux</font></td>
 </tr>
 </TABLE>
 </BODY> </HTML>
